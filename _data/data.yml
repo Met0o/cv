@@ -16,9 +16,9 @@ sidebar:
     email: metodi.simeonov@gmail.com
     phone: +359 887 544 993
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    website: met0o.github.io/cv/ #do not add http://
+    linkedin: mesime
+    github: met0o
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
@@ -33,56 +33,44 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Senior Data Scientist and Data Engineer with over 10 years of experience across diverse IT domains.
+
+      I possess hands-on expertise in designing scalable and reliable data products using tools such as Azure Synapse and Azure Data Factory, and I am adept at driving onprem and cloud data strategy.
+
+      Having led cross-functional data teams, I excel in translating complex business requirements into technical solutions. Fueled by a passion for innovation, I have extensive experience using Python, SQL, and R to develop tools that engineer, mine, and visualize data, empowering businesses to make informed decisions.
+
+      My commitment to fostering technical excellence encompasses evaluating emerging data technologies and ensuring that solutions maintain robust data governance and security.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MSc in Cognitive Sciennce
+        university: New Bulgarian University
+        time: 2022 - 2024
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          Specializing in Neuroscience, Cognitive Modeling, and Experimental Design. Delving deep into the intricacies of human cognition and the underlying neural mechanisms.
+            - Conducting advanced research, emphasizing cognitive control and working memory functionalities. Utilizing state-of-the-art electrophysiological methods, such as EEG, to capture and analyze neural responses during cognitive tasks.
+            - Handling and refining large multivariate datasets. Employing Python to process, analyze, and derive meaningful insights from complex neuroscientific data.
+      - degree: BSc in Psychology
+        university: New Bulgarian University
+        time: 2006 - 2020
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Thesis: Big Five personality dimensions and job satisfaction as predictors of Burnout.
+            - Developed regression model in R for evaluating and testing hypotheses.
+            - Highlighted Coursework: Statistics, Statistical Data Analysis, Experimental Methods, Cognitive Modeling.
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Senior Data Scientist / Engineer
+        time: 2022 - Present
+        company: Prime Holding JSC
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+         Leading a team of 4 data engineers and scientists, harnessing Large Language Models (LLMs), APIs, and a diverse open-source stack to create novel software. 
+         Pioneering the use of vector databases for retrieval-augmented generation tasks, which has significantly improved information retrieval and processing. 
+         Currently establishing new standards for data strategy and methodology, underpinned by detailed designs and architectural diagrams.
+            - Risk Analysis Application: Single-handedly designed and developed the data layer for a risk assessment application, promoting a cloud data strategy and ensuring robust data governance. Used Python to develop extensive ETL process sourcing, trnasofrming, and storing data from multiple sources.
+            - Anomaly Detection Application: Championed the deployment of project infrastructure, leading research in anomaly detection methods, ensuring data reliability and scalability.
+            - Smart Alignment & Customer churn project: Utilized Azure Synapse and Azure Data Factory to develop and analyze datasets, driving improvements in KPI automation processes and enhancing data analytics capabilities.
       - role: Senior Software Engineer
         time: 2014 - 2015
         company: Google, London
