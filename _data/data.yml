@@ -46,8 +46,7 @@ education:
       - degree: MSc in Cognitive Sciennce
         university: New Bulgarian University
         time: 2022 - 2024
-        details: |
-          Specializing in Neuroscience, Cognitive Modeling, and Experimental Design. Delving deep into the intricacies of human cognition and the underlying neural mechanisms.
+        details: Specializing in Neuroscience, Cognitive Modeling, and Experimental Design. Delving deep into the intricacies of human cognition and the underlying neural mechanisms.
             - Conducting advanced research, emphasizing cognitive control and working memory functionalities. Utilizing state-of-the-art electrophysiological methods, such as EEG, to capture and analyze neural responses during cognitive tasks.
             - Handling and refining large multivariate datasets. Employing Python to process, analyze, and derive meaningful insights from complex neuroscientific data.
       - degree: BSc in Psychology
