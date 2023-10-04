@@ -25,6 +25,18 @@ sidebar:
         - idiom: English
           level: Professional
 
+    skills:
+      title: Skills &amp; Proficiency
+      toolset:
+        - name: Python
+          level: 90%
+
+        - name: SQL
+          level: 85%
+
+        - name: R
+          level: 70%
+
 career-profile:
     title: Career Profile
     summary: |
@@ -149,18 +161,7 @@ publications:
         authors: Donald E. Knuth
         conference: Addison-Wesley, 1968
 
-skills:
-    title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python
-        level: 90%
-
-      - name: SQL
-        level: 85%
-
-      - name: R
-        level: 70%
 
 
 footer: >
