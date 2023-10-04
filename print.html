@@ -6,14 +6,14 @@ permalink: /print
 
 {% include career-profile.html %}
 
+{% include skills.html %}
+
 {% unless site.data.data.sidebar.education %}
   {% include education.html %}
 {% endunless %}
 
-{% include experiences.html %}
+{% include publications.html %}
 
 {% include projects.html %}
 
-{% include publications.html %}
-
-{% include skills.html %}
+{% include experiences.html %}

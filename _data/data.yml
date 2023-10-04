@@ -25,28 +25,33 @@ sidebar:
         - idiom: English
           level: Professional
 
-    skills:
-      title: Skills &amp; Proficiency
-      toolset:
-        - name: Python
-          level: 90%
-
-        - name: SQL
-          level: 85%
-
-        - name: R
-          level: 70%
-
 career-profile:
     title: Career Profile
     summary: |
-      Senior Data Scientist and Data Engineer with over 10 years of experience across diverse IT domains.
+      Senior Data Scientist and Data Engineer with over 10 years of experience across diverse IT domains. 
+      I possess hands-on expertise in designing scalable and reliable data products using Azure & AWS cloud stack, and I am adept at driving customer data strategies.
+      
+      Fueled by a passion for innovation, I have extensive experience using Python, SQL, and R to develop tools that engineer, mine, and visualize data, empowering businesses to make informed decisions.
 
-      I possess hands-on expertise in designing scalable and reliable data products using tools such as Azure Synapse and Azure Data Factory, and I am adept at driving onprem and cloud data strategy.
+      Having led cross-functional data teams, I excel in translating complex business requirements into technical solutions. 
 
-      Having led cross-functional data teams, I excel in translating complex business requirements into technical solutions. Fueled by a passion for innovation, I have extensive experience using Python, SQL, and R to develop tools that engineer, mine, and visualize data, empowering businesses to make informed decisions.
+      My commitment to fostering technical excellence encompasses evaluating emerging data technologies and ensuring that solutions maintain robust data governance and security.
 
-      My commitment to fostering technical excellence encompasses evaluating emerging data technologies and ensuring that solutions maintain robust data governance and security..
+skills:
+    title: Skills &amp; Proficiency
+    toolset:
+      - name: Python
+        level: 90%
+
+      - name: SQL
+        level: 85%
+
+      - name: R
+        level: 70%
+
+      - name: DAX
+        level: 40%
+
 education:
     title: Education
     info:
@@ -54,115 +59,223 @@ education:
         university: New Bulgarian University
         time: 2022 - 2024
         details: |
-          Specializing in Neuroscience, Cognitive Modeling, and Experimental Design.
-            - Delving into the intricacies of human cognition and the underlying neural mechanisms.
-            - Conducting advanced research, emphasizing on cognitive control and working memory. 
+          Delving into the intricacies of human cognition and the underlying neural mechanisms. Specializing in Neuroscience, Cognitive Modeling, and Experimental Design.
+            - Conducting advanced research emphasizing on cognitive control and working memory. 
             - Utilizing electrophysiological methods to capture and analyze neural responses during cognitive tasks.
-            - Handling and refining large multivariate datasets. 
-            - Employing Python to process, analyze, and derive meaningful insights from complex neuroscientific data.
+            - Employing Python to process, analyze, and derive meaningful insights from complex, multivariate neuroscientific data.
+      
       - degree: BSc in Psychology
         university: New Bulgarian University
-        time: 2006 - 2020
+        time: 2016 - 2020
         details: |
           Thesis: Big Five personality dimensions and job satisfaction as predictors of Burnout.
             - Developed regression model in R for evaluating and testing hypotheses.
             - Highlighted Coursework: Statistics, Statistical Data Analysis, Experimental Methods, Cognitive Modeling.
 
+      - degree: BSc, Marketing
+        university: MTM College Sofia
+        time: 2006 - 2009
+        details: |
+          Highlighted Coursework: Statistics, Higher Maths, Finance, Data Analysis, Marketing Research.
 
 experiences:
-    title: Experiences
+    title: Experience
     info:
-      - role: Senior Data Scientist / Engineer
-        time: 2022 - 2024
+      - role: Senior Data Scientist Engineer
+        time: 2022 - Current
         company: Prime Holding JSC
         details: |
-         Leading a team of 4 data engineers and scientists, harnessing Large Language Models (LLMs), APIs, and a diverse open-source stack to create novel software. 
-         Pioneering the use of vector databases for retrieval-augmented generation tasks, which has significantly improved information retrieval and processing. 
-         Currently establishing new standards for data strategy and methodology, underpinned by detailed designs and architectural diagrams.
-            - Risk Analysis Application: Single-handedly designed and developed the data layer for a risk assessment application, promoting a cloud data strategy and ensuring robust data governance. Used Python to develop extensive ETL process sourcing, trnasofrming, and storing data from multiple sources.
-            - Anomaly Detection Application: Championed the deployment of project infrastructure, leading research in anomaly detection methods, ensuring data reliability and scalability.
-            - Smart Alignment & Customer churn project: Utilized Azure Synapse and Azure Data Factory to develop and analyze datasets, driving improvements in KPI automation processes and enhancing data analytics capabilities.
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+         Leading a team of 5 data engineers and scientists, harnessing Large Language Models (LLMs), and a diverse open-source stack to create novel software. 
+          - Pioneering the application of vector databases in conjuction with LLM based agents for retrieval-augmented generation and information retrieval. 
+          - Engaging in presales activities and working closely with prospective clients to help define their requirements and align them with tailored solutions. 
+          - Creating detailed designs and architectural diagrams that encapsulate data strategy and methodology, ensuring a clear roadmap that is well-aligned with client objectives. 
+   
+      - role: Data Science & Analytics Consultant
+        time: 2020 - 2021
+        company: Hitachi Solutions Europe
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Worked as a full stack data scientist on variety of projects primarily in the field of data migration and augmentation. 
+            - Participated in large-scale data migration and modernization projects using Azure Data Factory, Synapse, and Power BI integration.
+            - Established a pan-European DevOps practice driving the expansion of data science portfolio.
+            - Used Shiny and Dash to integrate R and Python into containerized predictive web applications deployed to the Azure cloud. 
+            - Used Azure DevOps for backlog and version (Git) control. 
+            - Used Docker for application isolation and deployment.
+      
+      - role: Business Intelligence Developer
+        time: 2020 - 2020
+        company: Hewlett Packard Enterprise
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Collaborated with the business to maintain and update critical company tools, ensuring the proper use of KPIs and metrics. Updated and automated SQL Views and SSIS packages used for data loads of millions or records.
+            - Participated in the development of real-time streaming analytics solution for monitoring of Salesforce cases, orders, and escalations. Used Azure SQL DB to store live data feed from Kafka consumer, connected with direct query to a Power BI dashboard presenting instant view of the data.
+            - Developed end-to-end machine learning algorithm written in R to forecast demand for one of HPE’s GreenLake strategic deals. Used combination of Kwiatkowski–Phillips–Schmidt–Shin (KPSS) and augmented Dickey–Fuller (ADF) tests to evaluate hypotheses and determine time series stationarity.
+            - Developed Salesforce connector with R for on demand extraction of objects and fields using complex SOQL queries and API calls (REST & BULK) wrapped in functions, thus automating traditional salesforce reporting and data extraction for large volumes of data (+30 million rows).
+
+      - role: Business Analyst
+        time: 2018 - 2020
+        company: DXC Technology
+        details: |
+          Analyzed organizational and business domain specific processes and systems, assessed the business model and its integration with technology within the boundary of Workplace and Mobility of Offering Delivery & Transformation.
+            - Developed Power BI dashboards to monitor headcount attrition and turnover, employee distribution, skillset, and active project assignments.
+            - Worked with global L5 management team to drive business decisions, leveraging data from Salesforce, SAP Business Objects, and other internal systems.
+
+      - role: Solution Consultant
+        time: 2016 - 2018
+        company: Hewlett Packard Enterprise
+        details: |
+          Identified and validated opportunities to accelerate consumption in high potential customer accounts. Drove solution architecture in partnership with the delivery teams. Enabled the customer to envision their environment and services, while leveraging the greater DXC and partner resources (internal teams and partners).
+            - Provided technology leadership for development of Future Mode of Operation solution designs and functional migration plans. Closely cooperated with Account Teams, Subject Matter Experts, Chief Engineers, Operations, Delivery and Clients.
+            - Worked with financial data during pre-sales. Created cost models and revenue plans.
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
+        - name: Python Data Structures 
+          start: 2023
+          organization: Udemy
 
-          start: 2019
-          end:
+        - name: AWS Cloud Technical Essentials
+          start: 2022
+          organization: Coursera
+
+        - name: AWS Fundamentals
+          start: 2022
+          organization: Udemy
+
+        - name: DS4B 101-P Python for Data Science Automation
+          start: 2022
+          organization: Business Science University
+
+        - name: DS4B 201-R Data Science For Business With R
+          start: 2021
+          organization: Business Science University
+
+        - name: DS4B 203-R High Performance Time Series Forecasting
+          start: 2021
+          organization: Business Science University
+
+        - name: DS4B 102-R Web Applications with R-Shiny
+          start: 2021
+          organization: Business Science University
+
+        - name: DP-900 Microsoft Azure Data Fundamentals
+          start: 2021
           organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
+
+        - name: AZ-900 Azure Fundamentals
+          start: 2021
+          organization: Microsoft
+
+        - name: DS4B 101-R R for business analysis
+          start: 2021
+          organization: Business Science University
+
+        - name: Distributed Computing with Spark SQL
+          start: 2020
+          organization: Coursera
+
+        - name: Data Wrangling, Analysis and AB Testing with SQL
+          start: 2020
+          organization: Coursera
+
+        - name: Advanced R Programming
+          start: 2020
+          organization: Coursera
+
+        - name: Building Interactive Apps With Shiny and R
+          start: 2020
+          organization: Udemy
+
+        - name: Programming with R
+          start: 2020
+          organization: Coursera
+
+        - name: Qlik Sense Data Architect Masterclass
+          start: 2020
+          organization: Udemy
+
+        - name: MCSA Machine Learning
+          start: 2019
+          organization: Microsoft
+
+        - name: 773 Analyzing Big Data with Microsoft R
+          start: 2019
+          organization: Microsoft
+
+        - name: 774 Perform Cloud Data Science with Azure Machine Learning
+          start: 2019
+          organization: Microsoft
+
+        - name: SQL for Data Science
+          start: 2019
+          organization: Coursera
+
+        - name: Implementing a Data Warehouse with Microsoft SQL Server
+          start: 2019
+          organization: Udemy
+
+        - name: Perform ETL using SSIS
+          start: 2019
+          organization: Udemy
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section.
+
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Risk Analysis Application project (Feb 2023 - May 2023)
+        link: "https://github.com/Met0o/data_ingestion"
+        tagline: "Designed and developed Postgres deployment and configuration codebase including the underlying data layer of a risk assessment application. 
+        Fully automated the CI/CD deployment pipeline using Docker and Github Workflows."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Anomaly Detection Application project (Oct 2022 - Feb 2023)
+        #link: ""
+        tagline: "Deployed project infrastructure using Docker, Postgres, Prometheus, Grafana and MLFlow.
+        Researched anomaly detection methods based on confidence and probability intervals with detection of anomalous groups (Entropy, Wavelet transforms, Isolation Forest, Prophet)."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Smart Alignment project (Aug 2022 - Oct 2022)
+        #link: ""
+        tagline: "Developed preliminary dataset and analyzed semantic similarity of key product features using sentence transformer model (SBERT), thus improving KPI automation process."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Customer churn analysis case study (July 2022 - Aug 2022)
+        #link: ""
+        tagline: "Created end-to-end project design and implementation. Developed novel data model sourcing data from 5 systems using Azure Data Lake and Synapse. 
+        Iterated through multiple ML models and developed Shiny web application for interactive customer churn scoring."
+  
+      - title: Automatic Insights Recommendation project (May 2022 - Aug 2022)
+        #link: ""
+        tagline: "Developed TensorFlow multiclass classification model with hyperparameter optimization. Developed model tracking and testing with MLFlow."
+
+      - title: Autofill OKRs project (Jan 2022 - Mar 2022)
+        #link: ""
+        tagline: "Developed language detection inference pipeline, used LIME for explainability of a large TensorFlow multiclass classification model. 
+        Developed complex data model sourcing data off production systems using Azure Synapse, AZDL and PGDB that powered automated Grafana dashboards for tracking model performance in production."    
+
+      - title: Equity Trading Forecast Analysis 
+        link: "https://rpubs.com/MetodiSimeonov/Superlearner"
+        tagline: "Worked on a POC consultancy project for a FinTech company where I developed a forecasting solution in for predicting equity trading volumes. Used variety of nested and ensembled models to process multiple time series in parallel."
+
+      - title: Nestted Forecaster Web App (2021)
+        link: "https://metodisimeonov.shinyapps.io/Nested_Forecaster/"
+        tagline: "Developed R-Shiny Product Forecasting App for the M5 Forecasting Accuracy challenge on Kaggle using XGBoost, Prophet and Random Forest models."
+
+      - title: Hierarchical Forecaster Web App (2021)
+        link: "https://metodisimeonov.shinyapps.io/Hierarchical_Forecaster/"
+        tagline: "Developed R-Shiny Product Exploration App for the M5 Forecasting Accuracy challenge on Kaggle using an ensemble approach comprising of XGBoost and Lightgbm models."
+
+      - title: Employee Attrition Analysis (2021)
+        link: "https://rpubs.com/MetodiSimeonov/Attrition"
+        tagline: "Developed predictive analysis to target employee attrition. Used variety of tree based and ensemble models in H2O, embedded in Azure Machine Learning."
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section.
+
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: OKR Platform. Powerful Machine Learning Always on Target.
+        link: "https://www.primeholding.com/story/okr-platform-powerful-ml-always-on-target"
+        authors: Metodi Simeonov
+        conference: July 2022
 
-
-
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer: 
+    #Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
