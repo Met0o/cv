@@ -17,6 +17,25 @@ sidebar:
     github: met0o
     pdf: http://www.africau.edu/images/default/sample.pdf
 
+    skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+        level: 90%
+
+      - name: SQL
+        level: 85%
+
+      - name: R
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Ruby
+        level: 50%
+
     languages:
       title: Languages
       info:
@@ -154,26 +173,6 @@ publications:
         link: "#"
         authors: Donald E. Knuth
         conference: Addison-Wesley, 1968
-
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python
-        level: 90%
-
-      - name: SQL
-        level: 85%
-
-      - name: R
-        level: 70%
-
-      - name: HTML5 & CSS
-        level: 60%
-
-      - name: Ruby
-        level: 50%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
