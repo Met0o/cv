@@ -60,7 +60,7 @@ education:
 experiences:
     title: Experiences
     info:
-     - role: Senior Data Scientist / Engineer
+      - role: Senior Data Scientist / Engineer
         time: 2022 - 2024
         company: Prime Holding JSC
         details: |
