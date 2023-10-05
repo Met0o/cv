@@ -87,6 +87,7 @@ experiences:
         details: |
          Leading a team of 5 data engineers and scientists, harnessing Large Language Models (LLMs), and a diverse open-source stack to create novel software. 
           - Pioneering the application of vector databases in conjuction with LLM based agents for retrieval-augmented generation and information retrieval. 
+          - Fine-tuning foundational LLMs with domain specific datasets using quantized low-rank adaptation methods (qLORA).
           - Engaging in presales activities and working closely with prospective clients to help define their requirements and align them with tailored solutions. 
           - Creating detailed designs and architectural diagrams that encapsulate data strategy and methodology, ensuring a clear roadmap that is well-aligned with client objectives. 
    
@@ -94,8 +95,8 @@ experiences:
         time: 2020 - 2021
         company: Hitachi Solutions Europe
         details: |
-          Worked as a full stack data scientist on variety of projects primarily in the field of data migration and augmentation. 
-            - Participated in large-scale data migration and modernization projects using Azure Data Factory, Synapse, and Power BI integration.
+          Worked as a full stack data scientist on variety of projects. 
+            - Participated in large-scale data migration and augmentation projects using Azure Data Factory, Synapse, and Power BI integration.
             - Established a pan-European DevOps practice driving the expansion of data science portfolio.
             - Used Shiny and Dash to integrate R and Python into containerized predictive web applications deployed to the Azure cloud. 
             - Used Azure DevOps for backlog and version (Git) control. 
@@ -226,7 +227,7 @@ projects:
       - title: Risk Analysis Application project (Feb 2023 - May 2023)
         link: "https://github.com/Met0o/data_ingestion"
         tagline: "Designed and developed Postgres deployment and configuration codebase including the underlying data layer of a risk assessment application. 
-        Fully automated the CI/CD deployment pipeline using Docker and Github Workflows."
+        Fully automated the CI/CD deployment pipeline using Docker and Github Workflows to integrate it as a microservice within a broader Kubernetes cluster."
 
       - title: Anomaly Detection Application project (Oct 2022 - Feb 2023)
         #link: ""
