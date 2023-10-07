@@ -234,6 +234,12 @@ projects:
         tagline: "Deployed project infrastructure using Docker, Postgres, Prometheus, Grafana and MLFlow.
         Researched anomaly detection methods based on confidence and probability intervals with detection of anomalous groups (Entropy, Wavelet transforms, Isolation Forest, Prophet)."
 
+      - title: Kafka-Streaming project (Oct 2022)
+        link: "https://github.com/Met0o/Kafka-Streaming"
+        tagline: "Developed Kafka data-streaming solution.
+        Designed and implemented a real-time data pipeline. Integrated Spark Streaming with Kafka for data ingestion. Applied data cleaning and sentiment analysis using TextBlob. 
+        Stored processed data in MongoDB."
+
       - title: Smart Alignment project (Aug 2022 - Oct 2022)
         #link: ""
         tagline: "Developed preliminary dataset and analyzed semantic similarity of key product features using sentence transformer model (SBERT), thus improving KPI automation process."
