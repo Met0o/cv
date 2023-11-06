@@ -50,7 +50,7 @@ skills:
         level: 70%
 
       - name: DAX
-        level: 40%
+        level: 30%
 
 education:
     title: Education
@@ -224,10 +224,19 @@ projects:
 
     assignments:
 
+      - title: OCR Automation project (Oct 2023 - Current)
+        #link: "https://github.com/Met0o/data_ingestion"
+        tagline: "Leveraging expertise in automation and cloud services to architect and implement a sophisticated invoice processing system using Microsoft Power Automate and Azure OCR models. 
+        Engineering Flask-based APIs to parse and integrate diverse data outputs from multiple OCR engines, effectively combining results to enhance accuracy and utility. 
+        Developing robust Python code to handle JSON data transformations, manage error logging, and ensure the seamless orchestration of data flow into a Supabase backend. 
+        Playing a pivotal role in the system's capability to classify documents, such as distinguishing subcontracts via text analysis, further refining data integrity for downstream business processes. 
+        Demonstrating strong acumen for both development and deployment within a serverless architecture, achieving significant improvements in operational efficiency and data-driven decision-making."
+
       - title: Risk Analysis Application project (Feb 2023 - May 2023)
         link: "https://github.com/Met0o/data_ingestion"
-        tagline: "Designed and developed Postgres deployment and configuration codebase including the underlying data layer of a risk assessment application. 
-        Fully automated the CI/CD deployment pipeline using Docker and Github Workflows to integrate it as a microservice within a broader Kubernetes cluster."
+        tagline: "Designed and developed Postgres deployment and configuration codebase including the underlying data layer of a risk assessment application. Developed multiple custom connectors
+        supporting dynamic data ingestion from various sources (APIs, local & remote files, etc.). Created consolidated data model through dynamic and materialized views.
+        Fully automated the CI/CD deployment pipeline using Docker and Github Workflows. Achieved complete db and data-layer integration as a microservice within a Kubernetes cluster."
 
       - title: Anomaly Detection Application project (Oct 2022 - Feb 2023)
         #link: ""
@@ -238,7 +247,7 @@ projects:
         link: "https://github.com/Met0o/Kafka-Streaming"
         tagline: "Developed Kafka data-streaming solution.
         Designed and implemented a real-time data pipeline. Integrated Spark Streaming with Kafka for data ingestion. Applied data cleaning and sentiment analysis using TextBlob. 
-        Stored processed data in MongoDB."
+        Stored processed data in Atalas MongoDB cloud."
 
       - title: Smart Alignment project (Aug 2022 - Oct 2022)
         #link: ""
