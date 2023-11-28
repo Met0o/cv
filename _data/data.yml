@@ -267,19 +267,19 @@ projects:
         tagline: "Developed language detection inference pipeline, used LIME for explainability of a large TensorFlow multiclass classification model. 
         Developed complex data model sourcing data off production systems using Azure Synapse, AZDL and PGDB that powered automated Grafana dashboards for tracking model performance in production."    
 
-      - title: Equity Trading Forecast Analysis 
+      - title: Equity Trading Forecast Analysis (Dec 2021)
         link: "https://rpubs.com/MetodiSimeonov/Superlearner"
         tagline: "Worked on a POC consultancy project for a FinTech company where I developed a forecasting solution in for predicting equity trading volumes. Used variety of nested and ensembled models to process multiple time series in parallel."
 
-      - title: Nestted Forecaster Web App (2021)
+      - title: Nestted Forecaster Web App (Oct 2021)
         link: "https://metodisimeonov.shinyapps.io/Nested_Forecaster/"
         tagline: "Developed R-Shiny Product Forecasting App for the M5 Forecasting Accuracy challenge on Kaggle using XGBoost, Prophet and Random Forest models."
 
-      - title: Hierarchical Forecaster Web App (2021)
+      - title: Hierarchical Forecaster Web App (Sept 2021)
         link: "https://metodisimeonov.shinyapps.io/Hierarchical_Forecaster/"
         tagline: "Developed R-Shiny Product Exploration App for the M5 Forecasting Accuracy challenge on Kaggle using an ensemble approach comprising of XGBoost and Lightgbm models."
 
-      - title: Employee Attrition Analysis (2021)
+      - title: Employee Attrition Analysis (July 2021)
         link: "https://rpubs.com/MetodiSimeonov/Attrition"
         tagline: "Developed predictive analysis to target employee attrition. Used variety of tree based and ensemble models in H2O, embedded in Azure Machine Learning."
 
