@@ -98,7 +98,7 @@ experiences:
           Worked as a full stack data scientist on variety of projects. 
             - Participated in large-scale data migration and augmentation projects using Azure Data Factory, Synapse, and Power BI integration.
             - Established a pan-European DevOps practice driving the expansion of data science portfolio.
-            - Used Shiny and Dash to integrate R and Python into containerized predictive web applications deployed to the Azure cloud. 
+            - Used R-Shiny and Dash to integrate R and Python into containerized predictive web applications deployed to the Azure cloud. 
             - Used Azure DevOps for backlog and version (Git) control. 
             - Used Docker for application isolation and deployment.
       
@@ -236,7 +236,7 @@ projects:
         link: "https://github.com/Met0o/data_ingestion"
         tagline: "Designed and developed Postgres deployment and configuration codebase including the underlying data layer of a risk assessment application. Developed multiple custom connectors
         supporting dynamic data ingestion from various sources (APIs, local & remote files, etc.). Created consolidated data model through dynamic and materialized views.
-        Fully automated the CI/CD deployment pipeline using Docker and Github Workflows. Achieved complete db and data-layer integration as a microservice within a Kubernetes cluster."
+        Fully automated the CI/CD deployment pipeline using Docker and Github Workflows. Achieved complete database and data-layer integration as a microservice within a Kubernetes cluster."
 
       - title: Anomaly Detection Application project (Oct 2022 - Feb 2023)
         #link: ""
@@ -255,8 +255,8 @@ projects:
 
       - title: Customer churn analysis case study (July 2022 - Aug 2022)
         #link: ""
-        tagline: "Created end-to-end project design and implementation. Developed novel data model sourcing data from 5 systems using Azure Data Lake and Synapse. 
-        Iterated through multiple ML models and developed Shiny web application for interactive customer churn scoring."
+        tagline: "Created end-to-end project design and implementation. Developed novel data model sourcing data from 5 systems (Redis, ChargeBee, ADLS, MongoDB, Postgres) using Azure Synapse. 
+        Iterated through multiple classification models and developed R-Shiny web application for interactive customer churn scoring."
   
       - title: Automatic Insights Recommendation project (May 2022 - Aug 2022)
         #link: ""
