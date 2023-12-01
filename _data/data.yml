@@ -19,11 +19,11 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: Bulgaria
+        - idiom: Bulgarian
           level: Native
 
         - idiom: English
-          level: Professional
+          level: C1
 
 career-profile:
     title: Career Profile
