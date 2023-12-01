@@ -234,7 +234,7 @@ projects:
 
       - title: Risk Analysis Application project (Feb 2023 - May 2023)
         link: "https://github.com/Met0o/data_ingestion"
-        tagline: "Designed and developed Postgres deployment and configuration codebase including the underlying data layer of a risk assessment application. Developed multiple custom connectors
+        tagline: "Designed and developed Postgres deployment and configuration codebase including the underlying data layer of a risk assessment application. Developed multiple custom connectors using Python, 
         supporting dynamic data ingestion from various sources (APIs, local & remote files, etc.). Created consolidated data model through dynamic and materialized views.
         Fully automated the CI/CD deployment pipeline using Docker and Github Workflows. Achieved complete database and data-layer integration as a microservice within a Kubernetes cluster."
 
