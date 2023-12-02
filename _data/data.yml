@@ -257,22 +257,22 @@ projects:
 
       - title: Customer churn analysis case study (July 2022 - Aug 2022)
         #link: ""
-        tagline: "Created end-to-end project design and implementation. Developed novel data model sourcing data from 5 systems (Redis, ChargeBee, ADLS, MongoDB, Postgres) using Azure Synapse. 
+        tagline: "Created end-to-end project design and implementation. Developed novel data model sourcing data from 5 systems (Redis, ChargeBee, Salesforce, MongoDB, Postgres) using Azure Synapse. 
         Iterated through multiple classification models and developed R-Shiny web application for interactive customer churn scoring."
   
       - title: Automatic Insights Recommendation project (May 2022 - Aug 2022)
         #link: ""
-        tagline: "Developed TensorFlow multiclass classification model with hyperparameter optimization. Developed model tracking and testing with MLFlow."
+        tagline: "Developed TensorFlow multiclass classification model with hyperparameter optimization. Integrated model tracking and testing with MLFlow."
 
       - title: Autofill OKRs project (Jan 2022 - Mar 2022)
         #link: ""
         tagline: "Developed language detection inference pipeline, used LIME for explainability of a large TensorFlow multiclass classification model. 
-        Developed complex data model sourcing data off production systems using Azure Synapse, AZDL and PGDB that powered automated Grafana dashboards for tracking model performance in production."    
+        Developed complex data model sourcing data off production systems using Azure Synapse, AZDL and PGDB. Used Grafana to develop custom metrics and KPIS for tracking model performance in production."    
 
       - title: Equity Trading Forecast Analysis (Dec 2021)
         link: "https://rpubs.com/MetodiSimeonov/Superlearner"
         tagline: "Worked on a POC consultancy project for a FinTech company where I developed a forecasting solution for predicting equity trading volumes. 
-        Used variety of nested and ensembled models to process multiple time series in parallel."
+        Used variety of nested and ensembled models in R to process multiple time series in parallel."
 
       - title: Nestted Forecaster Web App (Oct 2021)
         link: "https://metodisimeonov.shinyapps.io/Nested_Forecaster/"
