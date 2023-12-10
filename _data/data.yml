@@ -55,7 +55,7 @@ skills:
 education:
     title: Education
     info:
-      - degree: MSc in Cognitive Sciennce
+      - degree: MSc in Cognitive Science
         university: New Bulgarian University
         time: 2022 - 2024
         details: |
@@ -249,7 +249,7 @@ projects:
         link: "https://github.com/Met0o/Kafka-Streaming"
         tagline: "Developed Kafka data-streaming solution.
         Designed and implemented a real-time data pipeline. Integrated Spark Streaming with Kafka for data ingestion. Applied data cleaning and sentiment analysis using TextBlob. 
-        Stored processed data in Atalas MongoDB cloud."
+        Stored processed data in Atlas MongoDB cloud."
 
       - title: Smart Alignment project (Aug 2022 - Oct 2022)
         #link: ""
