@@ -130,6 +130,26 @@ experiences:
 certifications:
       title: Certifications
       list:
+        - name: Building and Evaluating Advanced RAG
+          start: 2023
+          organization: Deeplearning.ai         
+        
+        - name: Finetuning Large Language Models
+          start: 2023
+          organization: Deeplearning.ai
+
+        - name: LangChain for LLM Application Development
+          start: 2023
+          organization: Deeplearning.ai 
+
+        - name: Vector Databases from Embeddings to Applications
+          start: 2023
+          organization: Deeplearning.ai          
+
+        - name: ChatGPT Prompt Engineering for Developers
+          start: 2023
+          organization: Deeplearning.ai
+
         - name: Python Data Structures 
           start: 2023
           organization: Udemy
