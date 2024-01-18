@@ -253,6 +253,12 @@ projects:
         Developing the system's capability to classify documents via text analysis, to further refine data integrity for downstream business processes. 
         Demonstrating strong acumen for both development and deployment within a serverless architecture, achieving improvements in operational efficiency and data-driven decision-making."
 
+      - title: RAG Web Application (Jun 2023 - Aug 2023)
+        link: "https://github.com/Met0o/Papyrus"
+        tagline: "Developed a Flask and Streamlit-based application for extracting and interacting with data from vectorized documents using transformer models and langchain. 
+        Optimized for performance in Docker with GPU support, the project features integration with pgvector database and efficient model utilization, including Stable-Platypus2-13B and Llama-2-7b-chat-hf. 
+        Managed full-stack implementation from data processing and server setup to user interface design, ensuring compatibility with various hardware specifications and deploying effective debugging strategies"
+
       - title: Risk Analysis Application project (Feb 2023 - May 2023)
         link: "https://github.com/Met0o/data_ingestion"
         tagline: "Designed and developed Postgres deployment and configuration codebase including the underlying data layer of a risk assessment application. 
