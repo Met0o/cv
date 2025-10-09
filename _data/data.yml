@@ -44,13 +44,10 @@ skills:
         level: 90%
 
       - name: SQL
-        level: 85%
+        level: 80%
 
       - name: R
         level: 70%
-
-      - name: DAX
-        level: 30%
 
 education:
     title: Education
