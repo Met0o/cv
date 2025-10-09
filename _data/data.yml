@@ -78,15 +78,26 @@ education:
 experiences:
     title: Experience
     info:
+      - role: Senior Data Science Engineer
+        time: 2024 - Current
+        company: Mach5 Technology
+        details: |
+          Heading the design and deployment of AI-driven data platforms and intelligent automation services that integrate modern LLM-based architectures with classical machine learning. 
+            - Leading end-to-end delivery of agentic systems built on Azure OpenAI, Autogen, and LangChain—enabling multi-agent orchestration, dynamic MCP tool discovery, retrieval-augmented reasoning (RAG), and autonomous workflow execution for enterprise operations. 
+            - Architected production-ready RAG pipelines unifying MongoDB Atlas Vector Search, BM25, and Azure OpenAI models with integrated evaluation and observability stacks. 
+            - Delivered AI-assisted exam marking and diagnostics platforms leveraging agentic pipelines, FastAPI, and Kubernetes with Helm-based deployments and CI/CD automation via GitHub Actions and Azure Container Registry. 
+            - Developed large-scale forecasting system on Azure Databricks using Prophet and GLM models to predict insurance premiums across multiple segments, automating cross-validation, MLflow tracking, and distributed execution. 
+            - Defined architectural standards, environment-driven configurations, and security practices ensuring reproducibility, reliability, and safe model operation across microservice deployments. 
+            - Collaborating with leadership on strategic adoption of generative AI frameworks and formalizing best practices for evaluation, observability, and responsible deployment of large language models in production.
       - role: Senior Data Scientist Engineer
-        time: 2022 - Current
+        time: 2022 - 2024
         company: Prime Holding JSC
         details: |
-         Leading a team of 5 data engineers and scientists, harnessing Large Language Models (LLMs), and a diverse open-source stack to create novel software. 
-          - Pioneering the application of vector databases in conjunction with LLM based agents for retrieval-augmented generation and information retrieval. 
-          - Fine-tuning foundational LLMs with domain specific datasets using quantized low-rank adaptation methods (qLORA).
-          - Engaging in presales activities and working closely with prospective clients to help define their requirements and align them with tailored solutions. 
-          - Creating detailed designs and architectural diagrams that encapsulate data strategy and methodology, ensuring a clear roadmap that is well-aligned with client objectives. 
+          Leading a team of 5 data engineers and scientists, harnessing Large Language Models (LLMs), and a diverse open-source stack to create novel software. 
+            - Pioneering the application of vector databases in conjunction with LLM based agents for retrieval-augmented generation and information retrieval. 
+            - Fine-tuning foundational LLMs with domain specific datasets using quantized low-rank adaptation methods (qLORA).
+            - Engaging in presales activities and working closely with prospective clients to help define their requirements and align them with tailored solutions. 
+            - Creating detailed designs and architectural diagrams that encapsulate data strategy and methodology, ensuring a clear roadmap that is well-aligned with client objectives. 
    
       - role: Data Science & Analytics Consultant
         time: 2020 - 2021
@@ -127,6 +138,26 @@ experiences:
 certifications:
       title: Certifications
       list:
+        - name: Agentic AI
+          start: 2025
+          organization: Deeplearning.ai
+
+        - name: Reasoning with o1
+          start: 2025
+          organization: Deeplearning.ai
+
+        - name: Automated Testing for LLMOps
+          start: 2024
+          organization: Deeplearning.ai
+          
+        - name: LLMops
+          start: 2024
+          organization: Deeplearning.ai
+
+        - name: Understanding and Applying Text Embeddings
+          start: 2024
+          organization: Deeplearning.ai
+
         - name: Building and Evaluating Advanced RAG
           start: 2023
           organization: Deeplearning.ai         
@@ -240,8 +271,17 @@ projects:
     intro: >
 
     assignments:
-
-      - title: OCR Automation project (Sept 2023 - Current)
+      - title: Machine Exam Marking & Diagnostics
+        tagline: ". 
+        Optimized for performance ... 
+        Managed full-stack implementation ..."
+      
+      - title: Insured AI
+        tagline: ". 
+        Optimized for performance... 
+        Managed full-stack implementation...
+      
+      - title: OCR Automation project (Sept 2023 - Feb 2024)
         #link: "https://github.com/Met0o/data_ingestion"
         tagline: "Leveraging expertise in automation and cloud services to architect and implement a sophisticated invoice processing system, utilizing Microsoft Power Automate, 
         Azure OCR engines, and Adobe REST APIs, augmented with Generative AI. 
