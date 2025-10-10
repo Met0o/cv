@@ -274,22 +274,19 @@ projects:
         Selected projects from my work, each highlighting a distinct system or capability built as part of a broader AI and data platform strategy.
     assignments:
       - title: MCP Agent Platform (July 2025 - Current)
-        tagline: "
-        Architected enterprise-grade FastAPI service exposing LLM-driven MCP agents augmented with static and remote tooling, semantic routing, and hybrid integrations across Salesforce, Commercetools, and CRM for customer operations automation. 
+        tagline: "Architecting enterprise-grade FastAPI service exposing LLM-driven MCP agents augmented with static/remote tooling, semantic routing, and hybrid integrations across Salesforce, Commercetools, a CRM, and other systems for customer operations automation. 
         Designed streaming SSE adapters, semaphore-guarded Autogen runtimes with JWT propagation, and Redis-backed context hydration to support resilient multi-session workflows.
         Extended Autogen's MCP workbench to annotate JSON-schema tools, auto-recover, and emit AG-UI events powering rich, observable UI feedback loops.
         Automated builds and quality gates with Makefile, Docker, pre-commit hooks, GitHub Actions, Trivy image scanning, and Snyk security policy enforcement."
       
       - title: Diagnostics & Recommendation Engine (August 2025 - Current)
-        tagline: " 
-        Built an asynchronous diagnostics backend that consumes Azure Service Bus events, validates complex payloads, and performs single-stage Azure OpenAI analysis via AutoGen for deterministic, Pydantic-validated outputs (risk summaries and product recommendations).
+        tagline: "Building an asynchronous diagnostics backend that consumes Azure Service Bus events, validates complex payloads, and performs single-shot LLM-driven analysis via AutoGen for deterministic, Pydantic-validated outputs containing analysis of risk and product recommendations.
         Engineered a lifespan-controlled FastAPI service with semaphore-based backpressure, auto-reconnect logic, and explicit ack/abandon semantics, ensuring reliable, concurrent message handling.
-        Encapsulated Service Bus messaging through a broker abstraction (servicebus_utils), templated prompts, and centralized telemetry with Azure/uAMQP filtering.
+        Encapsulated Service Bus messaging through a broker abstraction, templated prompts, and centralized telemetry with Azure/uAMQP filtering.
         Enforced robust quality gate through async pytest coverage of concurrency and broker workflows, Makefile pipelines, Dockerized Service Bus Emulator, pre-commit hooks, and Trivy image scanning for production-grade security and compliance."
 
       - title: AI Agent Endpoint (March 2025 - June 2025)
-        tagline: " 
-        Developed a production-grade multi-agent helpdesk automation service integrating Azure OpenAI, MongoDB Atlas, and SendGrid API.
+        tagline: "Developed a production-grade multi-agent helpdesk automation service integrating Azure OpenAI, MongoDB Atlas, and SendGrid API.
         Built an asynchronous FastAPI endpoint coordinating Analysis, Service, and Mail agents via Autogen to interpret queries, retrieve context, and trigger escalation workflows.
         Implemented hybrid retrieval combining Vector Search and Atlas Search through LangChain and Motor for relevant, low-latency document access.
         Integrated templated SendGrid notifications with validated environment secrets to ensure secure, deterministic case handoffs.
@@ -297,16 +294,14 @@ projects:
         Delivered an intelligent, self-contained endpoint enabling automatic classification, routing, and escalation of helpdesk requests with consistent, monitored performance."
 
       - title: Forecasting Platform (Jan 2025 - March 2025)
-        tagline: " 
-        Developed a large-scale forecasting system modeling written premiums by country and insurance class using Azure Databricks and Prophet/GLM models.
+        tagline: "Developed a large-scale forecasting system modeling written premiums by country and insurance class using Azure Databricks and Prophet/GLM models.
         The platform yielded thousands of time-series combinations through permutations of model type, macroeconomic regressors, and cross-validation folds with hyperparameter grid search.
         Automated model selection and MLflow experiment tracking ensured transparency and reproducibility.
         Parallelized execution with Python multiprocessing accelerated training and forecasting, while validation logic handled sparse and outlier-prone data.
         Produced quarterly and yearly forecasts with metadata integrated into Databricks and downstream BI pipelines, delivering reliable, scalable insights for actuarial analysis."
 
       - title: Document Embedding & Hybrid Search Service (Sep 2024 - Dec 2024)
-        tagline: " 
-        Built a retrieval-augmented generation (RAG) platform delivering grounded enterprise Q&A over internal document collections, powering multiple learning assistants across our GRC portfolio.
+        tagline: "Built a retrieval-augmented generation (RAG) platform delivering grounded enterprise Q&A over internal document collections, powering multiple learning assistants across our GRC portfolio.
         Designed an ensemble retriever combining MongoDB Atlas Vector Search, BM25, and LLM-based contextual compression through LangChain to balance precision and recall.
         Implemented evaluation with TruLens for groundedness and answer relevance, storing metrics asynchronously in PostgreSQL.
         Exposed a FastAPI endpoint that orchestrates Azure OpenAI models with persistent conversation memory, structured logging, and environment-based configuration.
@@ -314,21 +309,18 @@ projects:
         Shipped the system with Docker including Prometheus and Grafana for observability."
 
       - title: Agent Marking Service (April 2024 - Aug 2024)
-        tagline: " 
-        Developed and deployed an AI-powered exam marking service that integrates a Streamlit user interface with a FastAPI backend orchestrating Azure OpenAI models.
+        tagline: "Developed and deployed an AI-powered exam marking service that integrates a Streamlit user interface with a FastAPI backend orchestrating Azure OpenAI models.
         Designed an agentic grading pipeline using Autogen to assemble context from exams, marking guides, and exemplar responses, generating structured grades and feedback stored in MongoDB.
         Implemented asynchronous background job processing, structured logging, and readiness/health probes for reliable operation.
         Delivered hardened Docker containers with multi-stage builds, digest-pinned Helm deployments, and environment-sourced secrets managed via Azure Container Registry.
         Automated builds and Helm chart publishing through GitHub Actions, ensuring full local-to-cloud parity and production-grade delivery."
 
       - title: OCR Automation project (Sept 2023 - Feb 2024)
-        #link: "https://github.com/Met0o/data_ingestion"
-        tagline: "Leveraging expertise in automation and cloud services to architect and implement a sophisticated invoice processing system, utilizing Microsoft Power Automate, 
-        Azure OCR engines, and Adobe REST APIs, augmented with Generative AI. 
-        Engineering Flask-based APIs to parse and integrate data outputs from OCR engines with OpenAI Assistant API agents, combining results to enhance accuracy and utility. 
-        Developing Python back-end to handle JSON data transformations, manage error logging, and ensure the orchestration of data flow into a Supabase. 
-        Developing the system's capability to classify documents via text analysis, to further refine data integrity for downstream business processes. 
-        Demonstrating strong acumen for both development and deployment within a serverless architecture, achieving improvements in operational efficiency and data-driven decision-making."
+        tagline: "Architected an automated invoice processing platform combining Azure OCR engines, Adobe REST APIs, and Generative AI for document intelligence.
+        Built Flask-based APIs orchestrating OCR and OpenAI Assistant outputs into unified, validated JSON payloads for enhanced data accuracy.
+        Designed a Python backend handling asynchronous data transformations, structured logging, and reliable ingestion into Supabase.
+        Implemented text-based document classification and integrity checks to support downstream analytics pipelines.
+        Delivered a fully serverless, cloud-native system improving processing efficiency and operational transparency across automation workflows."
 
       - title: RAG Web Application (Jun 2023 - Aug 2023) - Link
         link: "https://github.com/Met0o/Papyrus"
@@ -344,7 +336,6 @@ projects:
         Fully automated the CI/CD deployment pipeline using Docker and Github Workflows. Achieved complete database and data-layer integration as a microservice within a Kubernetes cluster."
 
       - title: Anomaly Detection Application project (Oct 2022 - Feb 2023)
-        #link: ""
         tagline: "Deployed project infrastructure using Docker, Postgres, Prometheus, Grafana and MLFlow.
         Researched anomaly detection methods based on confidence and probability intervals with detection of anomalous groups (Entropy, Wavelet transforms, Isolation Forest, Prophet)."
 
@@ -355,20 +346,16 @@ projects:
         Stored processed data in Atlas MongoDB cloud."
 
       - title: Smart Alignment project (Aug 2022 - Oct 2022)
-        #link: ""
         tagline: "Developed preliminary dataset and analyzed semantic similarity of key product features using sentence transformer model (SBERT), thus improving KPI automation process."
 
       - title: Customer churn analysis case study (July 2022 - Aug 2022)
-        #link: ""
         tagline: "Created end-to-end project design and implementation. Developed novel data model sourcing data from 5 systems (Redis, ChargeBee, Salesforce, MongoDB, Postgres) using Azure Synapse. 
         Iterated through multiple classification models and developed R-Shiny web application for interactive customer churn scoring."
   
       - title: Automatic Insights Recommendation project (May 2022 - Aug 2022)
-        #link: ""
         tagline: "Developed TensorFlow multiclass classification model with hyperparameter optimization. Integrated model tracking and testing with MLFlow."
 
       - title: Autofill OKRs project (Jan 2022 - Mar 2022)
-        #link: ""
         tagline: "Developed language detection inference pipeline, used LIME for explainability of a large TensorFlow multiclass classification model. 
         Developed complex data model sourcing data off production systems using Azure Synapse, AZDL and PGDB. Used Grafana to develop custom metrics and KPIS for tracking model performance in production."    
 
