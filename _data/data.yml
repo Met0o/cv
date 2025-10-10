@@ -273,22 +273,22 @@ projects:
     intro: >
         Selected projects from my work, each highlighting a distinct system or capability built as part of a broader AI and data platform strategy.
     assignments:
-      - title: MCP Agent Service (July 2025 - Current)
-        # tagline: "Enterprise-grade MCP agent platform orchestrating Azure OpenAI copilots with dynamic MCP tool discovery, semantic routing, and hybrid integrations across Salesforce, Commercetools, and CRM for customer operations automation. 
-        Architected FastAPI service exposing Azure GPT-driven MCP agents with static and remote tooling.
+      - title: MCP Agent Platform (July 2025 - Current)
+        tagline: "
+        Architected enterprise-grade FastAPI service exposing LLM-driven MCP agents augmented with static and remote tooling, semantic routing, and hybrid integrations across Salesforce, Commercetools, and CRM for customer operations automation. 
         Designed streaming SSE adapters, semaphore-guarded Autogen runtimes with JWT propagation, and Redis-backed context hydration to support resilient multi-session workflows.
         Extended Autogen's MCP workbench to annotate JSON-schema tools, auto-recover, and emit AG-UI events powering rich, observable UI feedback loops.
         Automated builds and quality gates with Makefile, Docker, pre-commit hooks, GitHub Actions, Trivy image scanning, and Snyk security policy enforcement."
       
       - title: Diagnostics & Recommendation Engine (August 2025 - Current)
-        # tagline: "Asynchronous FastAPI microservice ingesting Azure Service Bus diagnostics, executing single-stage agentic analysis, and publishing schema-validated events with backpressure, reliability, and rich observability. 
+        tagline: " 
         Built an asynchronous diagnostics backend that consumes Azure Service Bus events, validates complex payloads, and performs single-stage Azure OpenAI analysis via AutoGen for deterministic, Pydantic-validated outputs (risk summaries and product recommendations).
         Engineered a lifespan-controlled FastAPI service with semaphore-based backpressure, auto-reconnect logic, and explicit ack/abandon semantics, ensuring reliable, concurrent message handling.
         Encapsulated Service Bus messaging through a broker abstraction (servicebus_utils), templated prompts, and centralized telemetry with Azure/uAMQP filtering.
         Enforced robust quality gate through async pytest coverage of concurrency and broker workflows, Makefile pipelines, Dockerized Service Bus Emulator, pre-commit hooks, and Trivy image scanning for production-grade security and compliance."
 
       - title: AI Agent Endpoint (March 2025 - June 2025)
-        # tagline: "Multi-agent FastAPI endpoint automating helpdesk triage and escalation using Azure OpenAI with MongoDB hybrid retrieval and SendGrid notifications. 
+        tagline: " 
         Developed a production-grade multi-agent helpdesk automation service integrating Azure OpenAI, MongoDB Atlas, and SendGrid API.
         Built an asynchronous FastAPI endpoint coordinating Analysis, Service, and Mail agents via Autogen to interpret queries, retrieve context, and trigger escalation workflows.
         Implemented hybrid retrieval combining Vector Search and Atlas Search through LangChain and Motor for relevant, low-latency document access.
@@ -297,7 +297,7 @@ projects:
         Delivered an intelligent, self-contained endpoint enabling automatic classification, routing, and escalation of helpdesk requests with consistent, monitored performance."
 
       - title: Forecasting Platform (Jan 2025 - March 2025)
-        # tagline: "Large-scale insurance multicategory forecasting system using Prophet/GLM on Azure Databricks, with automated cross-validation, MLflow tracking, and parallelized model selection. 
+        tagline: " 
         Developed a large-scale forecasting system modeling written premiums by country and insurance class using Azure Databricks and Prophet/GLM models.
         The platform yielded thousands of time-series combinations through permutations of model type, macroeconomic regressors, and cross-validation folds with hyperparameter grid search.
         Automated model selection and MLflow experiment tracking ensured transparency and reproducibility.
@@ -305,7 +305,7 @@ projects:
         Produced quarterly and yearly forecasts with metadata integrated into Databricks and downstream BI pipelines, delivering reliable, scalable insights for actuarial analysis."
 
       - title: Document Embedding & Hybrid Search Service (Sep 2024 - Dec 2024)
-        # tagline: "Enterprise-ready RAG platform delivering grounded question-answering through Azure OpenAI, MongoDB Atlas vector search, and BM25 hybrid retrieval with integrated evaluation and monitoring. 
+        tagline: " 
         Built a retrieval-augmented generation (RAG) platform delivering grounded enterprise Q&A over internal document collections, powering multiple learning assistants across our GRC portfolio.
         Designed an ensemble retriever combining MongoDB Atlas Vector Search, BM25, and LLM-based contextual compression through LangChain to balance precision and recall.
         Implemented evaluation with TruLens for groundedness and answer relevance, storing metrics asynchronously in PostgreSQL.
@@ -314,7 +314,7 @@ projects:
         Shipped the system with Docker including Prometheus and Grafana for observability."
 
       - title: Agent Marking Service (April 2024 - Aug 2024)
-        tagline: "AI-driven exam marking platform combining Streamlit UI and FastAPI backend, orchestrating Azure OpenAI grading pipelines with MongoDB persistence. 
+        tagline: " 
         Developed and deployed an AI-powered exam marking service that integrates a Streamlit user interface with a FastAPI backend orchestrating Azure OpenAI models.
         Designed an agentic grading pipeline using Autogen to assemble context from exams, marking guides, and exemplar responses, generating structured grades and feedback stored in MongoDB.
         Implemented asynchronous background job processing, structured logging, and readiness/health probes for reliable operation.
