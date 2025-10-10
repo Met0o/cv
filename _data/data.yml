@@ -14,7 +14,6 @@ sidebar:
     website: met0o.github.io/cv/ #do not add http://
     linkedin: mesime
     github: met0o
-    pdf: http://www.github.com/cv/Metodi_Simeonov.pdf
 
     languages:
       title: Languages
@@ -29,6 +28,7 @@ career-profile:
     title: Career Profile
     summary: |
       Senior AI and Data Science Engineer with over 15 years of experience spanning across diverse IT domains. 
+      
       I specialize in building intelligent systems that unify classical statistical modeling with modern LLM ecosystems, enabling adaptive, explainable, and automated decision workflows. 
 
       My recent work focuses on architecting multi-agent platforms delivering enterprise-grade AI services. 
@@ -49,7 +49,7 @@ skills:
         level: 70%
 
       - name: R
-        level: 60%
+        level: 50%
 
 education:
     title: Education
