@@ -271,15 +271,19 @@ projects:
     intro: >
 
     assignments:
-      - title: Machine Exam Marking & Diagnostics
-        tagline: ". 
-        Optimized for performance ... 
-        Managed full-stack implementation ..."
+      - title: MCP Agent Service (July 2025 - Current)
+        tagline: "Enterprise-grade MCP agent platform orchestrating Azure OpenAI copilots with dynamic tool discovery, semantic routing, and hybrid integrations across Salesforce, Commercetools, and CRM for customer operations automation. 
+        Architected FastAPI service exposing Azure GPT-driven MCP agents with hybrid static/remote tooling, secure HTTPS execution, and streaming SSE adapters.
+        Implemented semaphore-controlled Autogen workflows with JWT propagation, Redis context hydration, and Mongo-backed chat lifecycle for reliable multi-session automation.
+        Extended MCP workbench to annotate JSON-schema tools, auto-recover from timeouts, and emit AG-UI events powering rich, observable UI feedback loops.
+        Automated builds and quality gates with Makefile, Docker, pre-commit hooks, GitHub Actions CI, Trivy image scanning, and Snyk security policy enforcement."
       
-      - title: Insured AI
-        tagline: ". 
-        Optimized for performance... 
-        Managed full-stack implementation...
+      - title: AI Diagnostics Service (August 2025 - Current)
+        tagline: "Asynchronous FastAPI microservice ingesting Azure Service Bus diagnostics, executing single-stage agentic analysis, and publishing schema-validated insights with backpressure, reliability, and rich observability. 
+        Architected lifespan-managed FastAPI backend with semaphore-controlled listener, backpressure handling, auto-reconnect, and one-message-per-task isolation for reliable concurrent ingestion.
+        Implemented template-driven AutoGen AssistantAgent with JSON-mode schema output and Pydantic validation to deterministic output (incl. Product recommendations).
+        Delivered structured JSON telemetry with centralized Azure/uAMQP noise filtering, env-gated startup, and clear ack/abandon semantics for resilient message lifecycle control.
+        Automated and validated through async pytest coverage of listener and broker flows, Makefile gates, pre-commit (ruff/autoflake), Docker with Service Bus Emulator, and Trivy image scans."
       
       - title: OCR Automation project (Sept 2023 - Feb 2024)
         #link: "https://github.com/Met0o/data_ingestion"
