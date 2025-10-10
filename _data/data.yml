@@ -36,6 +36,7 @@ career-profile:
       I combine deep expertise in Python, distributed computing, and MLOps to design reliable, observable, and cloud-native solutions. 
 
       Having led cross-functional data teams, I excel in translating complex organizational needs into scalable architectures that balance innovation, reliability, and responsible AI governance. 
+      
       Passionate about advancing practical AI, I continuously evaluate emerging tools and frameworks to deliver production-ready, secure, and high-impact intelligent systems.
 
 skills:
@@ -83,13 +84,13 @@ experiences:
         time: 2024 - Current
         company: Mach5 Technology
         details: |
-          Heading the design and deployment of AI-driven data platforms and intelligent automation services that integrate modern LLM-based architectures with classical machine learning in the Governance, Risk Management And Compliance (GRC) sector. 
-            - Leading end-to-end delivery of agentic systems built on Azure, Autogen, and LangChain, enabling multi-agent orchestration, dynamic MCP tool discovery, retrieval-augmented reasoning (RAG), and autonomous workflow execution for enterprise operations. 
-            - Architected production-ready RAG pipelines unifying MongoDB Atlas Vector Search, BM25, and LLM models with integrated evaluation and observability stacks. 
-            - Delivered AI-assisted marking and diagnostics platforms leveraging agentic pipelines, FastAPI, and Kubernetes with Helm-based deployments and CI/CD automation via GitHub Actions and Azure Container Registry. 
-            - Developed large-scale forecasting system on Azure Databricks using Prophet and GLM models to predict insurance premiums across multiple segments, automating cross-validation, MLflow tracking, and distributed execution. 
-            - Defined architectural standards, environment-driven configurations, and security practices ensuring reproducibility, reliability, and safe model operation across microservice deployments. 
-            - Collaborating with leadership on strategic adoption of generative AI frameworks and formalizing best practices for evaluation, observability, and responsible deployment of large language models in production.
+          Steering AI system architecture and applied research initiatives within the Governance, Risk Management, and Compliance (GRC) sector. 
+            - Defining the company's generative AI strategy and delivering production-grade agentic platforms at scale. 
+            - Designing and standardizing internal agentic architecture spanning orchestration, retrieval-augmented generation (RAG), and evaluation frameworks used across multiple enterprise products. 
+            - Leading end-to-end integration of emerging frameworks into unified pipelines supporting adaptive reasoning, hybrid search, and autonomous workflow execution. 
+            - Establishing operational standards for observability, testing, and CI/CD, embedding evaluation metrics, telemetry, and reproducible containerization workflows across deployments. 
+            - Partnering with product leadership to translate compliance and risk-management requirements into deployable AI capabilities for automation and decision support. 
+
       - role: Senior Data Science Engineer
         time: 2022 - 2024
         company: Prime Holding JSC
@@ -270,11 +271,11 @@ certifications:
 projects:
     title: Projects
     intro: >
-
+        Selected projects from my work, each highlighting a distinct system or capability built as part of a broader AI and data platform strategy.
     assignments:
       - title: MCP Agent Service (July 2025 - Current)
-        tagline: "Enterprise-grade MCP agent platform orchestrating Azure OpenAI copilots with dynamic tool discovery, semantic routing, and hybrid integrations across Salesforce, Commercetools, and CRM for customer operations automation. 
-        Architected FastAPI service exposing Azure GPT-driven MCP agents with static and remote tooling, secure HTTPS execution, and streaming SSE adapters.
+        tagline: "Enterprise-grade MCP agent platform orchestrating Azure OpenAI copilots with dynamic MCP tool discovery, semantic routing, and hybrid integrations across Salesforce, Commercetools, and CRM for customer operations automation. 
+        Architected FastAPI service exposing Azure GPT-driven MCP agents with static and remote tooling.
         Designed streaming SSE adapters, semaphore-guarded Autogen runtimes with JWT propagation, and Redis-backed context hydration to support resilient multi-session workflows.
         Extended Autogen's MCP workbench to annotate JSON-schema tools, auto-recover, and emit AG-UI events powering rich, observable UI feedback loops.
         Automated builds and quality gates with Makefile, Docker, pre-commit hooks, GitHub Actions, Trivy image scanning, and Snyk security policy enforcement."
@@ -329,13 +330,13 @@ projects:
         Developing the system's capability to classify documents via text analysis, to further refine data integrity for downstream business processes. 
         Demonstrating strong acumen for both development and deployment within a serverless architecture, achieving improvements in operational efficiency and data-driven decision-making."
 
-      - title: RAG Web Application (Jun 2023 - Aug 2023)
+      - title: RAG Web Application (Jun 2023 - Aug 2023) - Link
         link: "https://github.com/Met0o/Papyrus"
         tagline: "Developed a Flask and Streamlit-based application for extracting and interacting with data from vectorized documents using transformer models and langchain. 
         Optimized for performance in Docker with GPU support, the project features integration with pgvector database and efficient model utilization, including Stable-Platypus2-13B and Llama-2-7b-chat-hf. 
         Managed full-stack implementation from data processing and server setup to user interface design, ensuring compatibility with various hardware specifications and deploying effective debugging strategies"
 
-      - title: Risk Analysis Application project (Feb 2023 - May 2023)
+      - title: Risk Analysis Application project (Feb 2023 - May 2023) - Link
         link: "https://github.com/Met0o/data_ingestion"
         tagline: "Designed and developed Postgres deployment and configuration codebase including the underlying data layer of a risk assessment application. 
         Developed multiple custom connectors using Python, 
@@ -347,7 +348,7 @@ projects:
         tagline: "Deployed project infrastructure using Docker, Postgres, Prometheus, Grafana and MLFlow.
         Researched anomaly detection methods based on confidence and probability intervals with detection of anomalous groups (Entropy, Wavelet transforms, Isolation Forest, Prophet)."
 
-      - title: Kafka-Streaming project (Oct 2022)
+      - title: Kafka-Streaming project (Oct 2022) - Link
         link: "https://github.com/Met0o/Kafka-Streaming"
         tagline: "Developed Kafka data-streaming solution.
         Designed and implemented a real-time data pipeline. Integrated Spark Streaming with Kafka for data ingestion. Applied data cleaning and sentiment analysis using TextBlob. 
@@ -371,20 +372,20 @@ projects:
         tagline: "Developed language detection inference pipeline, used LIME for explainability of a large TensorFlow multiclass classification model. 
         Developed complex data model sourcing data off production systems using Azure Synapse, AZDL and PGDB. Used Grafana to develop custom metrics and KPIS for tracking model performance in production."    
 
-      - title: Equity Trading Forecast Analysis (Dec 2021)
+      - title: Equity Trading Forecast Analysis (Dec 2021) - Link
         link: "https://rpubs.com/MetodiSimeonov/Superlearner"
         tagline: "Worked on a POC consultancy project for a FinTech company where I developed a forecasting solution for predicting equity trading volumes. 
         Used variety of nested and ensembled models in R to process multiple time series in parallel."
 
-      - title: Nestted Forecaster Web App (Oct 2021)
+      - title: Nestted Forecaster Web App (Oct 2021) - Link
         link: "https://metodisimeonov.shinyapps.io/Nested_Forecaster/"
         tagline: "Developed R-Shiny Product Forecasting App for the M5 Forecasting Accuracy challenge on Kaggle using XGBoost, Prophet and Random Forest models."
 
-      - title: Hierarchical Forecaster Web App (Sept 2021)
+      - title: Hierarchical Forecaster Web App (Sept 2021) - Link
         link: "https://metodisimeonov.shinyapps.io/Hierarchical_Forecaster/"
         tagline: "Developed R-Shiny Product Exploration App for the M5 Forecasting Accuracy challenge on Kaggle using an ensemble approach comprising of XGBoost and Lightgbm models."
 
-      - title: Employee Attrition Analysis (July 2021)
+      - title: Employee Attrition Analysis (July 2021) - Link
         link: "https://rpubs.com/MetodiSimeonov/Attrition"
         tagline: "Developed predictive analysis to target employee attrition. Used variety of tree based and ensemble models in H2O, embedded in Azure Machine Learning."
 
