@@ -58,17 +58,17 @@ education:
         university: New Bulgarian University
         time: 2022 - 2024
         details: |
-          Delving into the intricacies of human cognition and the underlying neural mechanisms. Specializing in Neuroscience, Cognitive Modeling, and Experimental Design.
-            - Conducting advanced research emphasizing on cognitive control and working memory. 
-            - Utilizing electrophysiological methods to capture and analyze neural responses during cognitive tasks.
-            - Employing Python to process, analyze, and derive meaningful insights from complex, multivariate neuroscientific data.
+          Delved into the intricacies of human cognition and the underlying neural mechanisms. Specialized in Neuroscience, Cognitive Modeling, and Experimental Design.
+            - Conducted advanced research emphasizing cognitive control and working memory. 
+            - Utilized electrophysiological methods to capture and analyze neural responses during cognitive tasks.
+            - Employed Python to process, analyze, and derive meaningful insights from complex, multivariate neuroscientific data.
       
       - degree: BSc in Psychology
         university: New Bulgarian University
         time: 2016 - 2020
         details: |
           Thesis: Big Five personality dimensions and job satisfaction as predictors of Burnout.
-            - Developed regression model in R for evaluating and testing hypotheses.
+            - Developed a regression model in R for evaluating and testing hypotheses.
             - Highlighted Coursework: Statistics, Statistical Data Analysis, Experimental Design, Cognitive Modeling.
 
       - degree: BSc, Marketing
