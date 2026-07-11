@@ -1,7 +1,10 @@
 {% assign sidebar = site.data.data.sidebar %}
-<div class="sidebar-wrapper">
+<aside class="sidebar-wrapper">
+<div class="sidebar-inner">
 
   <div class="profile-container">
+
+    <div class="availability"><span></span> Sofia, Bulgaria</div>
 
     {% if sidebar.avatar %}
     <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
@@ -15,7 +18,17 @@
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
 
+    <p class="profile-focus">Agentic systems, applied AI, and production-grade data platforms.</p>
+
   </div><!--//profile-container-->
+
+  <nav class="section-nav" aria-label="CV sections">
+    <a href="#profile"><span>01</span> Profile</a>
+    <a href="#experience"><span>02</span> Experience</a>
+    <a href="#projects"><span>03</span> Selected work</a>
+    <a href="#capabilities"><span>04</span> Core skills</a>
+    <a href="#education"><span>05</span> Education</a>
+  </nav>
 
   {% include contact.html %}
 
@@ -29,4 +42,5 @@
     {% include about.html %}
   {% endif %}
 
-</div><!--//sidebar-wrapper-->
+</div><!--//sidebar-inner-->
+</aside><!--//sidebar-wrapper-->

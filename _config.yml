@@ -25,6 +25,9 @@ sass:
 compress-site: yes
 
 encoding: "utf-8"
+exclude:
+  - source-code
+  - vendor
 compress_html: # - http://jch.penibelst.de/
   clippings: all
   ignore:

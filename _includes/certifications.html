@@ -1,14 +1,10 @@
 {% assign certifications = site.data.data.certifications %} {% if certifications %}
-<section class="section certifications-section">
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ certifications.title }}
-  </h2>
+<section class="section certifications-section" id="certifications">
+  <div class="section-kicker">Continuous learning</div>
+  <h2 class="section-title">{{ certifications.title }}</h2>
 
-  {% for certifications in certifications.list %}
+  <div class="certification-grid">
+  {% for certifications in certifications.list limit:6 %}
   <div class="item">
     <div class="meta">
       <div class="upper-row">
@@ -43,6 +39,26 @@
   </div>
   <!--//item-->
   {% endfor %}
+  </div>
+
+  {% if certifications.list.size > 6 %}
+  <details class="certification-archive">
+    <summary>View {{ certifications.list.size | minus: 6 }} earlier certifications</summary>
+    <div class="certification-grid">
+      {% for certification in certifications.list offset:6 %}
+      <div class="item">
+        <div class="meta">
+          <div class="upper-row">
+            <h3 class="cert-title">{{ certification.name }}</h3>
+            <div class="time">{{ certification.start }}</div>
+          </div>
+          <div class="cert-org">{{ certification.organization }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </details>
+  {% endif %}
 </section>
 <!--//section-->
 {% endif %}

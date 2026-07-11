@@ -9,9 +9,13 @@
 {% if site.data.data.sidebar.position == 'left' %}
 $resume-order: 2;
 $sidebar-order: 1;
+$resume-columns: 310px minmax(0, 1fr);
+$resume-columns-compact: 255px minmax(0, 1fr);
 {% else %}
 $resume-order: 1;
 $sidebar-order: 2;
+$resume-columns: minmax(0, 1fr) 310px;
+$resume-columns-compact: minmax(0, 1fr) 255px;
 {% endif %}
 
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin

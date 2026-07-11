@@ -1,18 +1,16 @@
 {% assign career-profile = site.data.data.career-profile %}
 {% if career-profile %}
-<section class="section summary-section">
+<section class="section summary-section" id="profile">
 
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ career-profile.title }}
+  <div class="section-kicker">Profile</div>
+  <h2 class="section-title profile-title">
+    <span>Engineering AI</span>
+    <span>for real-world operations.</span>
   </h2>
 
   <div class="summary">
     {{ career-profile.summary | markdownify }}
   </div><!--//summary-->
-    
+
 </section><!--//section-->
 {% endif %}

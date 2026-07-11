@@ -8,12 +8,15 @@
 {% include head.html %}
 
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
   <div class="wrapper">
     {% include sidebar.html %}
 
-    <div class="main-wrapper">
+    <main class="main-wrapper" id="main-content">
         {{ content }}
-    </div>
+    </main>
   </div>
 
   {% include footer.html %}
@@ -22,4 +25,3 @@
 </body>
 
 </html>
-

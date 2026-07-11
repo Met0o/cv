@@ -1,14 +1,9 @@
 {% assign projects = site.data.data.projects %}
 {% if projects %}
-<section class="section projects-section">
+<section class="section projects-section" id="projects">
 
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ projects.title }}
-  </h2>
+  <div class="section-kicker">Selected work / 03</div>
+  <h2 class="section-title">Applied AI systems and platforms.</h2>
 
   {% if projects.intro %}
   <div class="intro">
@@ -16,23 +11,48 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for project in projects.assignments %}
-    <div class="item">
-
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
+  <div class="featured-projects">
+    {% for project in projects.assignments limit:2 %}
+      <article class="project-card">
+        <div class="project-number">0{{ forloop.index }}</div>
+        <h3 class="project-title">
+          {% if project.link %}
+          <a href="{{ project.link }}" target="_blank" rel="noopener">{{ project.title }}</a>
+          {% else %}
+          {{ project.title }}
+          {% endif %}
+        </h3>
+        {% if project.tagline %}
+        <p class="project-tagline">{{ project.tagline }}</p>
         {% endif %}
-      </span>
+      </article>
+    {% endfor %}
+  </div>
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
-
-    </div><!--//item-->
-  {% endfor %}
+  <details class="project-archive">
+    <summary>
+      <span>Earlier work</span>
+      <strong>{{ projects.assignments.size | minus: 2 }} additional projects</strong>
+      <i class="fas fa-arrow-down" aria-hidden="true"></i>
+    </summary>
+    <div class="archive-list">
+      {% for project in projects.assignments offset:2 %}
+        <article class="archive-item">
+          <div class="archive-index">{{ forloop.index | plus: 2 }}</div>
+          <div>
+            <h3 class="project-title">
+              {% if project.link %}
+              <a href="{{ project.link }}" target="_blank" rel="noopener">{{ project.title }}</a>
+              {% else %}
+              {{ project.title }}
+              {% endif %}
+            </h3>
+            {% if project.tagline %}<p class="project-tagline">{{ project.tagline }}</p>{% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </details>
 
 </section><!--//section-->
 {% endif %}

@@ -27,29 +27,20 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Senior AI and Data Science Engineer with over 15 years of experience spanning across diverse IT domains. 
-      
-      I specialize in building intelligent systems that unify classical statistical modeling with modern LLM ecosystems, enabling adaptive, explainable, and automated decision workflows. 
+      Senior AI and Data Science Engineer with 15+ years across software, analytics, and data science. I design cloud-native AI systems for regulated enterprises, spanning agentic workflows, retrieval, evaluation, distributed processing, observability, and MLOps.
 
-      My recent work focuses on architecting multi-agent platforms delivering enterprise-grade AI services. 
-      
-      I combine deep expertise in Python, distributed computing, and MLOps to design reliable, observable, and cloud-native solutions. 
-
-      Having led cross-functional data teams, I excel in translating complex organizational needs into scalable architectures that balance innovation, reliability, and responsible AI governance. 
-      
-      Passionate about advancing practical AI, I continuously evaluate emerging tools and frameworks to deliver production-ready, secure, and high-impact intelligent systems.
+      I translate product requirements into secure, explainable, maintainable platforms—and establish the engineering standards that keep them reliable in production.
 
 skills:
     title: Skills &amp; Proficiency
     toolset:
-      - name: Python
-        level: 90%
+      - name: Data Science, Engineering &amp; Architecture
 
-      - name: SQL
-        level: 70%
+      - name: Agentic AI &amp; MCP
 
-      - name: R
-        level: 50%
+      - name: MLOps, Observability &amp; Evaluation
+
+      - name: Typed Python, R &amp; SQL
 
 education:
     title: Education
@@ -84,12 +75,13 @@ experiences:
         time: 2024 - Current
         company: Mach5 Technology
         details: |
-          Steering AI system architecture and applied research initiatives within the Governance, Risk Management, and Compliance (GRC) sector. 
-            - Defining the company's generative AI strategy and delivering production-grade agentic platforms at scale. 
-            - Designing and standardizing internal agentic architecture spanning orchestration, retrieval-augmented generation (RAG), and evaluation frameworks used across multiple enterprise products. 
-            - Leading end-to-end integration of emerging frameworks into unified pipelines supporting adaptive reasoning, hybrid search, and autonomous workflow execution. 
-            - Establishing operational standards for observability, testing, and CI/CD, embedding evaluation metrics, telemetry, and reproducible containerization workflows across deployments. 
-            - Partnering with product leadership to translate compliance and risk-management requirements into deployable AI capabilities for automation and decision support. 
+          Leading the architecture and delivery of production AI systems for Governance, Risk Management, and Compliance (GRC) products.
+            - Defining the company's generative AI strategy and establishing reusable architecture for agent orchestration, MCP integration, retrieval, evaluation, and autonomous workflows across multiple products.
+            - Designing secure, event-driven and interactive AI services with typed outputs, context management, authenticated tool execution, concurrency controls, and resilient failure handling.
+            - Establishing production observability through OpenTelemetry, Prometheus, MLflow, structured telemetry, health canaries, usage analytics, and automated AI quality evaluation.
+            - Owning engineering standards across automated testing, Docker and Helm delivery, CI/CD quality gates, dependency scanning, and container security.
+            - Evaluating emerging models, protocols, and frameworks and translating them into maintainable platform capabilities.
+            - Partnering with product leadership and engineering teams to translate compliance workflows into secure, scalable AI products.
 
       - role: Senior Data Science Engineer
         time: 2022 - 2024
@@ -273,17 +265,13 @@ projects:
     intro: >
         Selected projects from my work, each highlighting a distinct system or capability built as part of a broader AI and data platform strategy.
     assignments:
-      - title: MCP Agent Platform (July 2025 - Current)
-        tagline: "Architecting enterprise-grade FastAPI service exposing LLM-driven MCP agents augmented with static/remote tooling, semantic routing, and hybrid integrations across Salesforce, Commercetools, a CRM, and other systems for customer operations automation. 
-        Designed streaming SSE adapters, semaphore-guarded Autogen runtimes with JWT propagation, and Redis-backed context hydration to support resilient multi-session workflows.
-        Extended Autogen's MCP workbench to annotate JSON-schema tools, auto-recover, and emit AG-UI events powering rich, observable UI feedback loops.
-        Automated builds and quality gates with Makefile, Docker, pre-commit hooks, GitHub Actions, Trivy image scanning, and Snyk security policy enforcement."
-      
-      - title: Diagnostics & Recommendation Engine (August 2025 - Current)
-        tagline: "Building an asynchronous diagnostics backend that consumes Azure Service Bus events, validates complex payloads, and performs single-shot LLM-driven analysis via AutoGen for deterministic, Pydantic-validated outputs containing analysis of risk and product recommendations.
-        Engineered a lifespan-controlled FastAPI service with semaphore-based backpressure, auto-reconnect logic, and explicit ack/abandon semantics, ensuring reliable, concurrent message handling.
-        Encapsulated Service Bus messaging through a broker abstraction, templated prompts, and centralized telemetry with Azure/uAMQP filtering.
-        Enforced robust quality gate through async pytest coverage of concurrency and broker workflows, Makefile pipelines, Dockerized Service Bus Emulator, pre-commit hooks, and Trivy image scanning for production-grade security and compliance."
+      - title: MCP Agent Platform
+        tagline: >-
+          Architected a production FastAPI and Pydantic AI platform connecting enterprise agents to business APIs through the Model Context Protocol (MCP), with Azure-hosted models and authenticated, per-user tool access. Built AG-UI/SSE streaming, human-in-the-loop elicitation, resource-backed skill discovery, hybrid retrieval, and persistent multi-session chat workflows. Engineered context and tool-result guardrails, normalized provider failures, health canaries, usage analytics, OpenTelemetry tracing, and Prometheus metrics. Delivered containerized Helm deployments with automated testing, code-quality gates, and dependency and image security scanning.
+
+      - title: AI Diagnostics & Evaluation Service
+        tagline: >-
+          Designed an event-driven AI diagnostics service that consumes Azure Service Bus workloads, validates complex domain payloads, and generates closed-schema analytical reports with Pydantic AI and Azure-hosted reasoning models. Built secure MCP-based document hydration with OAuth token caching, structured output validation, attachment traceability, replica-aware rate limiting, bounded concurrency, message lock renewal, retry classification, and graceful workload draining. Added MLflow and Databricks tracing with asynchronous LLM-based quality evaluation, plus FastAPI health probes, Docker delivery, CI quality gates, and unit and live end-to-end test suites.
 
       - title: AI Agent Endpoint (March 2025 - June 2025)
         tagline: "Developed a production-grade multi-agent helpdesk automation service integrating Azure OpenAI, MongoDB Atlas, and SendGrid API.

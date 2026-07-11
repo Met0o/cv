@@ -1,45 +1,35 @@
-@media print
-   {
-    @page {
-        size: A4;
-    }
-    body {
-       font-size: 12pt;
-    }
-
-    img.avatar {
-        filter: grayscale(1);
-        -webkit-filter: greyscale(1);
-    }
-   .main-wrapper .time {
-       float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-   }
-    .sidebar-wrapper {
-        position: static;
-        float: right;
-        width: 40%;
-        -webkit-print-color-adjust: exact; 
-    }
-
-    .remove-container.container-block {
-       display: none;
-    }
-
-    footer {
-       display: none;
-    }
-
-    .skillset .level-bar-inner {
-       background-color: black !important;
-       -webkit-print-color-adjust: exact; 
-    }
-
-   .fa-inverse,
-   .fa-inverse:after,
-   .fa-inverse:before {
-     color: #ffffff !important;
-   }
-
+@media print {
+  @page { size: A4; margin: 11mm; }
+  body { padding: 0; color: #111; background: #fff; font-size: 9pt; }
+  body::before, .ambient, .skip-link, .section-nav { display: none !important; }
+  .wrapper { display: grid; grid-template-columns: 28% 72%; max-width: none; border: 0; border-radius: 0; box-shadow: none; }
+  .sidebar-wrapper { color: #fff; background: #142a46 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .profile-container, .container-block { padding: 18px; }
+  .availability, .profile-focus { display: none; }
+  .avatar { width: 70px; height: 70px; }
+  .name { font-size: 25pt; }
+  .main-wrapper { padding: 24px 28px; background: #fff; }
+  .section { margin-bottom: 28px; opacity: 1 !important; transform: none !important; break-inside: auto; }
+  .section-kicker { margin-bottom: 5px; font-size: 7pt; }
+  .section-title { margin-bottom: 14px; font-size: 22pt; }
+  .summary p { margin-bottom: 6px; }
+  .summary p:first-child { font-size: 12pt; }
+  .experiences-section > .item { padding: 0 0 14px 20px; break-inside: avoid; }
+  .details ul { gap: 2px; margin-top: 3px; }
+  .featured-projects { display: block; }
+  .project-card { min-height: 0; margin-bottom: 10px; padding: 16px; color: #111 !important; background: #f2eee7 !important; border: 1px solid #bbb; box-shadow: none; break-inside: avoid; }
+  .project-card::after { display: none; }
+  .project-number { margin-bottom: 8px; }
+  .project-title { margin-bottom: 7px; font-size: 14pt; }
+  .project-tagline { font-size: 8pt; }
+  details > summary { display: none !important; }
+  details:not([open]) > *:not(summary) { display: block !important; }
+  .archive-item { padding: 10px 0; break-inside: avoid; }
+  .archive-item .project-title { font-size: 11pt; }
+  .skillset { grid-template-columns: repeat(2, 1fr); }
+  .skillset .item { min-height: 0; padding: 8px; }
+  .level-title { font-size: 12pt; }
+  .certification-grid { grid-template-columns: repeat(2, 1fr); }
+  .certifications-section .item { padding: 8px; break-inside: avoid; }
+  .footer { display: none; }
 }
