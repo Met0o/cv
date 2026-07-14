@@ -32,13 +32,13 @@
   .summary p:first-child { font-size: 19px; }
   .upper-row { display: block; }
   .time { display: block; margin: 5px 0; }
-  .experiences-section > .item { margin-left: 4px; padding-left: 24px; }
+  .experiences-section > .item, .experience-archive-list > .item { margin-left: 4px; padding-left: 24px; }
   .featured-projects, .certification-grid { grid-template-columns: 1fr; }
   .project-card { padding: 25px; border-radius: 2px 16px 2px 2px; }
   .project-number { margin-bottom: 28px; }
   .project-title { font-size: 23px; }
-  .project-archive summary { grid-template-columns: 1fr auto; }
-  .project-archive summary span { display: none; }
+  .project-archive summary, .experience-archive summary { grid-template-columns: 1fr auto; }
+  .project-archive summary span, .experience-archive summary span { display: none; }
   .skillset { grid-template-columns: 1fr; }
   .skillset .item { min-height: 72px; }
 }

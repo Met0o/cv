@@ -14,7 +14,9 @@
   .section-title { margin-bottom: 14px; font-size: 22pt; }
   .summary p { margin-bottom: 6px; }
   .summary p:first-child { font-size: 12pt; }
-  .experiences-section > .item { padding: 0 0 14px 20px; break-inside: avoid; }
+  .experiences-section > .item, .experience-archive-list > .item { padding: 0 0 14px 20px; break-inside: avoid; }
+  .experience-archive { border: 0; }
+  .experience-archive-list { padding-top: 0; border-top: 0; }
   .details ul { gap: 2px; margin-top: 3px; }
   .featured-projects { display: block; }
   .project-card { min-height: 0; margin-bottom: 10px; padding: 16px; color: #111 !important; background: #f2eee7 !important; border: 1px solid #bbb; box-shadow: none; break-inside: avoid; }

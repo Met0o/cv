@@ -4,7 +4,7 @@
   <div class="section-kicker">Career / 02</div>
   <h2 class="section-title">{{ experiences.title }}</h2>
 
-  {% for experience in experiences.info %}
+  {% for experience in experiences.info limit:3 %}
   <div class="item">
 
     <div class="meta">
@@ -26,6 +26,38 @@
 
   </div><!--//item-->
   {% endfor %}
+
+  <details class="experience-archive"{% if page.url == '/print' %} open{% endif %}>
+    <summary>
+      <span>Earlier work</span>
+      <strong>{{ experiences.info.size | minus: 3 }} additional roles</strong>
+      <i class="fas fa-arrow-down" aria-hidden="true"></i>
+    </summary>
+    <div class="experience-archive-list">
+      {% for experience in experiences.info offset:3 %}
+      <div class="item">
+
+        <div class="meta">
+
+          <div class="upper-row">
+            <h3 class="job-title">{{ experience.role }}</h3>
+            <div class="time">{{ experience.time }}</div>
+          </div><!--//upper-row-->
+
+          <div class="company">{{ experience.company }}</div>
+
+        </div><!--//meta-->
+
+        {% if experience.details %}
+        <div class="details">
+          {{ experience.details | markdownify }}
+        </div><!--//details-->
+        {% endif %}
+
+      </div><!--//item-->
+      {% endfor %}
+    </div>
+  </details>
 
 </section><!--//section-->
 {% endif %}

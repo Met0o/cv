@@ -230,14 +230,14 @@ li::marker { color: var(--copper); }
 }
 .summary p:last-child { max-width: 620px; margin-top: 18px; }
 
-.experiences-section > .item {
+.experiences-section > .item, .experience-archive-list > .item {
   position: relative;
   margin-left: 10px;
   padding: 0 0 38px 34px;
   border-left: 1px solid var(--line);
 }
-.experiences-section > .item:last-child { padding-bottom: 0; }
-.experiences-section > .item::before {
+.experience-archive-list > .item:last-child { padding-bottom: 0; }
+.experiences-section > .item::before, .experience-archive-list > .item::before {
   position: absolute;
   top: 5px;
   left: -5px;
@@ -302,8 +302,8 @@ li::marker { color: var(--copper); }
 .project-tagline { position: relative; z-index: 1; margin: 0; font-size: 13px; line-height: 1.68; opacity: 0.82; }
 .project-card:nth-child(2) .project-tagline, .project-card:nth-child(3) .project-tagline { font-size: 12px; line-height: 1.58; }
 
-.project-archive, .certification-archive { margin-top: 16px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.project-archive summary, .certification-archive summary {
+.project-archive, .experience-archive, .certification-archive { margin-top: 16px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.project-archive summary, .experience-archive summary, .certification-archive summary {
   display: grid;
   grid-template-columns: 1fr auto auto;
   gap: 18px;
@@ -316,9 +316,10 @@ li::marker { color: var(--copper); }
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
-.project-archive summary::-webkit-details-marker, .certification-archive summary::-webkit-details-marker { display: none; }
-.project-archive summary strong { color: var(--ink); font-weight: 600; }
-.project-archive[open] summary i { transform: rotate(180deg); }
+.project-archive summary::-webkit-details-marker, .experience-archive summary::-webkit-details-marker, .certification-archive summary::-webkit-details-marker { display: none; }
+.project-archive summary strong, .experience-archive summary strong { color: var(--ink); font-weight: 600; }
+.project-archive[open] summary i, .experience-archive[open] summary i { transform: rotate(180deg); }
+.experience-archive-list { padding-top: 28px; border-top: 1px solid var(--line); }
 .archive-list { border-top: 1px solid var(--line); }
 .archive-item { display: grid; grid-template-columns: 34px 1fr; gap: 16px; padding: 22px 4px; border-bottom: 1px solid var(--line); }
 .archive-item:last-child { border-bottom: 0; }
