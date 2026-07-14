@@ -276,7 +276,7 @@ li::marker { color: var(--copper); }
 .project-card:first-child { grid-row: 1 / span 2; }
 .project-card:nth-child(2), .project-card:nth-child(3) {
   min-height: 0;
-  padding: 25px;
+  padding: 30px 25px 25px;
   color: var(--ink);
   background: var(--paper-deep);
   border: 1px solid rgba(24,35,31,0.12);
@@ -294,7 +294,7 @@ li::marker { color: var(--copper); }
   border-radius: 50%;
 }
 .project-number { margin-bottom: 42px; color: var(--copper-soft); font-size: 11px; font-weight: 700; letter-spacing: 0.16em; }
-.project-card:nth-child(2) .project-number, .project-card:nth-child(3) .project-number { margin-bottom: 18px; color: var(--copper); }
+.project-card:nth-child(2) .project-number, .project-card:nth-child(3) .project-number { color: var(--copper); }
 .project-title { margin-bottom: 18px; font: 600 25px/1.08 "Newsreader", Georgia, serif; letter-spacing: -0.025em; }
 .project-card:nth-child(2) .project-title, .project-card:nth-child(3) .project-title { margin-bottom: 12px; font-size: 21px; }
 .project-title, .name { overflow-wrap: break-word; }

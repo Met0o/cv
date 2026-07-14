@@ -1,11 +1,14 @@
+@media (max-width: 1100px) {
+  .featured-projects { grid-template-columns: 1fr; grid-template-rows: none; }
+  .project-card:first-child { grid-row: auto; }
+  .project-card { min-height: 0; }
+}
+
 @media (max-width: 960px) {
   body { padding: 22px; }
   .wrapper { grid-template-columns: $resume-columns-compact; }
   .profile-container, .section-nav, .container-block { padding-left: 25px; padding-right: 25px; }
   .main-wrapper { padding-left: 40px; padding-right: 40px; }
-  .featured-projects { grid-template-columns: 1fr; grid-template-rows: none; }
-  .project-card:first-child { grid-row: auto; }
-  .project-card { min-height: 0; }
 }
 
 @media (max-width: 720px) {
