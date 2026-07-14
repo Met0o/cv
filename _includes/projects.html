@@ -12,7 +12,7 @@
   {% endif %}
 
   <div class="featured-projects">
-    {% for project in projects.assignments limit:2 %}
+    {% for project in projects.assignments limit:3 %}
       <article class="project-card">
         <div class="project-number">0{{ forloop.index }}</div>
         <h3 class="project-title">
@@ -32,13 +32,13 @@
   <details class="project-archive">
     <summary>
       <span>Earlier work</span>
-      <strong>{{ projects.assignments.size | minus: 2 }} additional projects</strong>
+      <strong>{{ projects.assignments.size | minus: 3 }} additional projects</strong>
       <i class="fas fa-arrow-down" aria-hidden="true"></i>
     </summary>
     <div class="archive-list">
-      {% for project in projects.assignments offset:2 %}
+      {% for project in projects.assignments offset:3 %}
         <article class="archive-item">
-          <div class="archive-index">{{ forloop.index | plus: 2 }}</div>
+          <div class="archive-index">{{ forloop.index | plus: 3 }}</div>
           <div>
             <h3 class="project-title">
               {% if project.link %}

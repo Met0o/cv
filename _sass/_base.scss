@@ -257,7 +257,12 @@ li::marker { color: var(--copper); }
 .details ul { display: grid; gap: 7px; margin: 8px 0 0; }
 
 .projects-section .intro { max-width: 660px; margin: -15px 0 30px; color: var(--ink-soft); }
-.featured-projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.featured-projects {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
 .project-card {
   position: relative;
   min-height: 350px;
@@ -268,7 +273,15 @@ li::marker { color: var(--copper); }
   border-radius: 2px 22px 2px 2px;
   transition: transform 220ms ease, box-shadow 220ms ease;
 }
-.project-card:nth-child(2) { color: var(--ink); background: var(--paper-deep); border: 1px solid rgba(24,35,31,0.12); }
+.project-card:first-child { grid-row: 1 / span 2; }
+.project-card:nth-child(2), .project-card:nth-child(3) {
+  min-height: 0;
+  padding: 25px;
+  color: var(--ink);
+  background: var(--paper-deep);
+  border: 1px solid rgba(24,35,31,0.12);
+}
+.project-card:nth-child(3) { background: var(--paper); }
 .project-card:hover { transform: translateY(-5px); box-shadow: 0 18px 34px rgba(20,42,70,0.2); }
 .project-card::after {
   position: absolute;
@@ -281,11 +294,13 @@ li::marker { color: var(--copper); }
   border-radius: 50%;
 }
 .project-number { margin-bottom: 42px; color: var(--copper-soft); font-size: 11px; font-weight: 700; letter-spacing: 0.16em; }
-.project-card:nth-child(2) .project-number { color: var(--copper); }
+.project-card:nth-child(2) .project-number, .project-card:nth-child(3) .project-number { margin-bottom: 18px; color: var(--copper); }
 .project-title { margin-bottom: 18px; font: 600 25px/1.08 "Newsreader", Georgia, serif; letter-spacing: -0.025em; }
+.project-card:nth-child(2) .project-title, .project-card:nth-child(3) .project-title { margin-bottom: 12px; font-size: 21px; }
 .project-title, .name { overflow-wrap: break-word; }
 .project-title a { text-decoration: none; }
 .project-tagline { position: relative; z-index: 1; margin: 0; font-size: 13px; line-height: 1.68; opacity: 0.82; }
+.project-card:nth-child(2) .project-tagline, .project-card:nth-child(3) .project-tagline { font-size: 12px; line-height: 1.58; }
 
 .project-archive, .certification-archive { margin-top: 16px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .project-archive summary, .certification-archive summary {
