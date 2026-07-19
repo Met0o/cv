@@ -75,8 +75,8 @@ experiences:
         time: 2024 - Current
         company: Mach5 Technology
         details: |
-          Leading the architecture and delivery of production AI systems for Governance, Risk Management, and Compliance (GRC) products.
-            - Defining the company's generative AI strategy and establishing reusable architecture for agent orchestration, MCP integration, retrieval, evaluation, and autonomous workflows across multiple products.
+          Leading the architecture and delivery of production AI systems for the Governance, Risk Management, and Compliance (GRC) sector.
+            - Establishing reusable architecture for agent orchestration, MCP integration, retrieval, evaluation, and autonomous workflows across multiple products.
             - Designing secure, event-driven and interactive AI services with typed outputs, context management, authenticated tool execution, concurrency controls, and resilient failure handling.
             - Establishing production observability through OpenTelemetry, Prometheus, MLflow, structured telemetry, health canaries, usage analytics, and automated AI quality evaluation.
             - Owning engineering standards across automated testing, Docker and Helm delivery, CI/CD quality gates, dependency scanning, and container security.
@@ -267,29 +267,29 @@ projects:
     assignments:
       - title: Performance Intelligence & Coaching Platform
         tagline: >-
-          Architected a production, local-first FastAPI, Pydantic AI, and Next.js platform transforming longitudinal physiological and performance data into personalized, evidence-backed coaching. Separated multi-tenant identity, per-user WAL SQLite storage, rate-limited external-data ingestion, and LLM orchestration into independently containerized services; built idempotent bootstrap, incremental-sync, and bounded-backfill pipelines alongside deterministic analytical workloads. Delivered multimodal AG-UI/SSE chat, contextual suggestions, persistent model history, and structured long-term memory, optimizing latency and token usage through parallel context assembly, deferred tool loading, prompt caching, bounded history, and provider-side compaction; developed generative UI components and guided workflows that convert agent decisions into intuitive, persistent actions. Hardened trust boundaries with per-user tool authorization, server-side credentials, sanitized multimodal persistence, and Cloudflare Access-aware session recovery; operated the Docker Compose stack behind Caddy with Prometheus, Loki, and Grafana observability, backup tooling, pre-commit gates, and high unit-testing suite coverage.
+          Architected a production, local-first FastAPI, Pydantic AI, and Next.js platform transforming longitudinal physiological and performance data into personalized, evidence-backed coaching. Separated multi-tenant identity, per-user WAL SQLite storage, rate-limited external-data ingestion, and LLM orchestration into independently containerized services; built idempotent bootstrap, incremental-sync, and bounded-backfill pipelines alongside deterministic analytical workloads. Delivered multimodal AG-UI/SSE chat, contextual suggestions, persistent model history, and structured long-term memory, optimizing latency and token usage through parallel context assembly, deferred tool loading, prompt caching, bounded history, and provider-side compaction; developed generative UI components and guided workflows that convert agent decisions into intuitive, persistent actions. Hardened trust boundaries with per-user tool authorization, server-side credentials, sanitized multimodal persistence, and Cloudflare Access-aware session recovery; operated the Docker Compose stack behind Caddy with Prometheus, Loki, and Grafana observability, backup tooling, pre-commit gates, and extensive testing coverage.
 
       - title: MCP Agent Platform
         tagline: >-
-          Architected a production FastAPI and Pydantic AI platform connecting enterprise agents to business APIs through the Model Context Protocol (MCP), with Azure-hosted models and authenticated, per-user tool access. Built AG-UI/SSE streaming, human-in-the-loop elicitation, resource-backed skill discovery, hybrid retrieval, and persistent multi-session chat workflows. Engineered context and tool-result guardrails, normalized provider failures, health canaries, usage analytics, OpenTelemetry tracing, and Prometheus metrics. Delivered containerized Helm deployments with automated testing, code-quality gates, and dependency and image security scanning.
+          Architected a production FastAPI and Pydantic AI platform connecting enterprise agents to business APIs through the Model Context Protocol (MCP), with Azure-hosted models and authenticated, per-user tool access. Built AG-UI/SSE streaming, human-in-the-loop elicitation, resource-backed skill discovery, hybrid retrieval, and persistent multi-session chat workflows. Engineered context and tool-result guardrails, normalized provider failures, usage analytics, OpenTelemetry tracing, and Prometheus metrics. Delivered containerized Helm deployments with automated testing, code-quality gates, and dependency and image security scanning.
 
       - title: AI Diagnostics & Evaluation Service
         tagline: >-
-          Designed an event-driven AI diagnostics service that consumes Azure Service Bus workloads, validates complex domain payloads, and generates closed-schema analytical reports with Pydantic AI and Azure-hosted reasoning models. Built secure MCP-based document hydration with OAuth token caching, structured output validation, attachment traceability, replica-aware rate limiting, bounded concurrency, message lock renewal, retry classification, and graceful workload draining. Added MLflow and Databricks tracing with asynchronous LLM-based quality evaluation, plus FastAPI health probes, Docker delivery, CI quality gates, and unit and live end-to-end test suites.
+          Designed an event-driven AI diagnostics service that consumes Azure Service Bus workloads, validates complex domain payloads, and generates closed-schema analytical reports with Pydantic AI and Azure-hosted reasoning models. Built secure MCP-based document hydration with OAuth token caching, structured output validation, attachment traceability, replica-aware rate limiting, bounded concurrency, message lock renewal, retry classification, and graceful workload draining. Instrumented MLflow and Databricks tracing with asynchronous LLM-based quality evaluation, Docker delivery, CI quality gates, and extensive test coverage.
 
       - title: AI Agent Endpoint (March 2025 - June 2025)
         tagline: "Developed a production-grade multi-agent helpdesk automation service integrating Azure OpenAI, MongoDB Atlas, and SendGrid API.
         Built an asynchronous FastAPI endpoint coordinating Analysis, Service, and Mail agents via Autogen to interpret queries, retrieve context, and trigger escalation workflows.
-        Implemented hybrid retrieval combining Vector Search and Atlas Search through LangChain and Motor for relevant, low-latency document access.
+        Implemented hybrid retrieval through LangChain and Motor for relevant, low-latency document access.
         Integrated templated SendGrid notifications with validated environment secrets to ensure secure, deterministic case handoffs.
-        Reinforced reliability with structured logging, health probes, async metrics, and conversation persistence.
+        Reinforced reliability with structured logging, async metrics, and conversation persistence.
         Delivered an intelligent, self-contained endpoint enabling automatic classification, routing, and escalation of helpdesk requests with consistent, monitored performance."
 
       - title: Forecasting Platform (Jan 2025 - March 2025)
         tagline: "Developed a large-scale forecasting system modeling written premiums by country and insurance class using Azure Databricks and Prophet/GLM models.
         The platform yielded thousands of time-series combinations through permutations of model type, macroeconomic regressors, and cross-validation folds with hyperparameter grid search.
         Automated model selection and MLflow experiment tracking ensured transparency and reproducibility.
-        Parallelized execution with Python multiprocessing accelerated training and forecasting, while validation logic handled sparse and outlier-prone data.
+        Parallelized execution with Python multiprocessing accelerated training, fitting and forecasting, while validation logic handled sparse and outlier-prone data.
         Produced quarterly and yearly forecasts with metadata integrated into Databricks and downstream BI pipelines, delivering reliable, scalable insights for actuarial analysis."
 
       - title: Document Embedding & Hybrid Search Service (Sep 2024 - Dec 2024)
