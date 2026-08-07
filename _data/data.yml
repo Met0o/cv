@@ -132,6 +132,26 @@ experiences:
 certifications:
       title: Certifications
       list:
+        - name: AI Code Review
+          start: 2026
+          organization: Deeplearning.ai
+
+        - name: Model Context Protocol
+          start: 2026
+          organization: Anthropic
+
+        - name: Agent Skills
+          start: 2026
+          organization: Anthropic
+
+        - name: Claude Code in Action
+          start: 2026
+          organization: Anthropic
+
+        - name: Building with the Claude API
+          start: 2026
+          organization: Anthropic
+
         - name: Agentic AI
           start: 2025
           organization: Deeplearning.ai
@@ -267,15 +287,15 @@ projects:
     assignments:
       - title: Performance Intelligence & Coaching Platform
         tagline: >-
-          Architected a production, local-first FastAPI, Pydantic AI, and Next.js platform transforming longitudinal physiological and performance data into personalized, evidence-backed coaching. Separated multi-tenant identity, per-user WAL SQLite storage, rate-limited external-data ingestion, and LLM orchestration into independently containerized services; built idempotent bootstrap, incremental-sync, and bounded-backfill pipelines alongside deterministic analytical workloads. Delivered multimodal AG-UI/SSE chat, contextual suggestions, persistent model history, and structured long-term memory, optimizing latency and token usage through parallel context assembly, deferred tool loading, prompt caching, bounded history, and provider-side compaction; developed generative UI components and guided workflows that convert agent decisions into intuitive, persistent actions. Hardened trust boundaries with per-user tool authorization, server-side credentials, sanitized multimodal persistence, and Cloudflare Access-aware session recovery; operated the Docker Compose stack behind Caddy with Prometheus, Loki, and Grafana observability, backup tooling, pre-commit gates, and extensive testing coverage.
+          Architected a production, local-first FastAPI, Pydantic AI, and Next.js platform transforming longitudinal physiological and performance data into personalized, evidence-backed coaching. Separated multi-tenant identity, per-user storage, rate-limited external-data ingestion, and LLM orchestration into independently containerized services; built idempotent bootstrap, incremental-sync, and bounded-backfill pipelines alongside deterministic analytical workloads. Delivered multimodal AG-UI/SSE chat, contextual suggestions, persistent model history, and structured long-term memory, optimizing latency and token usage through parallel context assembly, deferred tool loading, prompt caching, bounded history, and provider-side compaction; developed generative UI components and guided workflows that convert agent decisions into intuitive, persistent actions. Hardened trust boundaries with per-user tool authorization, sanitized multimodal persistence, and Cloudflare Access-aware session recovery; operated the Docker Compose stack behind Caddy with Prometheus, Loki, and Grafana observability, backup tooling, pre-commit gates, and extensive testing coverage.
 
       - title: MCP Agent Platform
         tagline: >-
-          Architected a production FastAPI and Pydantic AI platform connecting enterprise agents to business APIs through the Model Context Protocol (MCP), with Azure-hosted models and authenticated, per-user tool access. Built AG-UI/SSE streaming, human-in-the-loop elicitation, resource-backed skill discovery, hybrid retrieval, and persistent multi-session chat workflows. Engineered context and tool-result guardrails, normalized provider failures, usage analytics, OpenTelemetry tracing, and Prometheus metrics. Delivered containerized Helm deployments with automated testing, code-quality gates, and dependency and image security scanning.
+          Architected a production FastAPI and Pydantic AI platform connecting enterprise agents to business APIs through the Model Context Protocol (MCP), with Azure-hosted models and authenticated, per-user tool access. Built AG-UI/SSE streaming, human-in-the-loop elicitation, resource-backed skill discovery, hybrid retrieval, and persistent multi-session chat workflows. Engineered context and tool-result guardrails, normalized provider failures, usage analytics, OpenTelemetry tracing, and Prometheus metrics. Delivered containerized Helm deployments with automated testing, code-quality gates, and dependency and image security scanning. Currently handling approximately 2k requests weekly.
 
       - title: AI Diagnostics & Evaluation Service
         tagline: >-
-          Designed an event-driven AI diagnostics service that consumes Azure Service Bus workloads, validates complex domain payloads, and generates closed-schema analytical reports with Pydantic AI and Azure-hosted reasoning models. Built secure MCP-based document hydration with OAuth token caching, structured output validation, attachment traceability, replica-aware rate limiting, bounded concurrency, message lock renewal, retry classification, and graceful workload draining. Instrumented MLflow and Databricks tracing with asynchronous LLM-based quality evaluation, Docker delivery, CI quality gates, and extensive test coverage.
+          Designed an event-driven AI diagnostics service that consumes Azure Service Bus workloads, validates complex domain payloads, and generates closed-schema analytical reports with Pydantic AI and Azure-hosted reasoning models. Built secure MCP-based document hydration with secure OAuth, structured output validation, attachment traceability, replica-aware rate limiting, bounded concurrency, message lock renewal, retry classification, and graceful workload draining. Instrumented MLflow and Databricks tracing with asynchronous LLM-based quality evaluation, Docker delivery, CI quality gates, and extensive test coverage.
 
       - title: AI Agent Endpoint (March 2025 - June 2025)
         tagline: "Developed a production-grade multi-agent helpdesk automation service integrating Azure OpenAI, MongoDB Atlas, and SendGrid API.
