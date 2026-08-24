@@ -78,7 +78,7 @@ experiences:
           Leading the architecture and delivery of production AI systems for the Governance, Risk Management, and Compliance (GRC) sector.
             - Establishing reusable architecture for agent orchestration, MCP integration, retrieval, evaluation, and autonomous workflows across multiple products.
             - Designing secure, event-driven and interactive AI services with typed outputs, context management, authenticated tool execution, concurrency controls, and resilient failure handling.
-            - Establishing production observability through OpenTelemetry, Prometheus, MLflow, structured telemetry, health canaries, usage analytics, and automated AI quality evaluation.
+            - Establishing production observability and tracing through OpenTelemetry, Prometheus, MLflow, and automated AI quality evaluation.
             - Owning engineering standards across automated testing, Docker and Helm delivery, CI/CD quality gates, dependency scanning, and container security.
             - Evaluating emerging models, protocols, and frameworks and translating them into maintainable platform capabilities.
             - Partnering with product leadership and engineering teams to translate compliance workflows into secure, scalable AI products.
